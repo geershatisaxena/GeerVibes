@@ -1,0 +1,110 @@
+/* Add your dark theme overrides */
+[data-theme="dark"] {
+    --background-color: #1a1b1e;
+    --container-bg: #2d2e32;
+    --text-color: #f1f2f6;
+    --text-color-strong: #ffffff;
+    --secondary-text: #a4b0be;
+    --border-color: #3d3e42;
+    --hover-color: #34353a;
+    --progress-background: rgba(255, 255, 255, 0.1);
+}
+
+/* Logo Animation */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo span {
+    background: linear-gradient(45deg, #ff0101, #e71818, #f70c6a, #b9e75c);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animate-logo 10s linear infinite;
+}
+
+@keyframes animate-logo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Progress Slider Improvements */
+.progress-section {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+}
+
+.progress-container {
+    flex: 1;
+    background: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 6px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.progress {
+    background: linear-gradient(90deg, #ff0101, #f70c6a);
+    border-radius: 10px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-handle {
+    width: 12px;
+    height: 12px;
+    background: #f70c6a;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(0.8);
+    cursor: grab;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.progress-container:hover {
+    height: 8px;
+}
+
+.progress-container:hover .progress-handle {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.2);
+}
+
+/* Playlist Section */
+.playlist-header h3 {
+    color: var(--text-color-strong);
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, #ff0101, #f70c6a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Time Display */
+#current-time, #duration {
+    color: var(--text-color-strong);
+    font-weight: 500;
+    font-size: 0.9rem;
+    min-width: 45px;
+    text-align: center;
+}

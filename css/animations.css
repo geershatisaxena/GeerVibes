@@ -1,0 +1,51 @@
+/* Logo Animation and Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo i {
+    color: #f70c6a;
+    font-size: 1.8rem;
+}
+
+.logo span {
+    background: linear-gradient(45deg, #ff0101, #e71818, #f70c6a, #b9e75c);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animate-logo 10s linear infinite;
+}
+
+@keyframes animate-logo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* My Collections Text Style */
+.playlist-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    padding: 0.2rem 0;
+}
+
+/* Light Theme */
+[data-theme="light"] .playlist-header h3 {
+    background: linear-gradient(45deg, #ff0101, #e71818, #f70c6a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+[data-theme="dark"] .playlist-header h3 {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}

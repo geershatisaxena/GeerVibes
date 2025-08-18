@@ -1,0 +1,109 @@
+/* Logo Animation */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color-strong);
+    position: relative;
+}
+
+.logo span {
+    background: linear-gradient(45deg, #ff0101, #e71818, #f70c6a, #b9e75c);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animate-logo 10s linear infinite;
+}
+
+@keyframes animate-logo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Fix for My Collection text visibility */
+.playlist-header h3 {
+    color: var(--text-color-strong);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress slider improvements */
+.progress-container {
+    flex: 1;
+    background: var(--border-color);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 6px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.progress {
+    background: linear-gradient(90deg, #ff0101, #f70c6a);
+    border-radius: 10px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-handle {
+    width: 12px;
+    height: 12px;
+    background: #f70c6a;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(0.8);
+    cursor: grab;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.progress-container:hover {
+    height: 8px;
+    background: #ddd;
+}
+
+.progress-container:hover .progress-handle {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.2);
+}
+
+/* Time display */
+#current-time, #duration {
+    color: var(--text-color-strong);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .progress-container {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .progress-container:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .progress-handle {
+    border-color: var(--container-bg);
+}
+
+[data-theme="dark"] .playlist-header h3 {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,223 @@
+/* Current Song Info Styles */
+:root {
+    --container-bg-rgb: 255, 255, 255;
+}
+
+[data-theme="dark"] {
+    --container-bg-rgb: 45, 46, 50;
+}
+
+.current-song-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: var(--container-bg);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    margin: 1rem auto;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.img-container {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.img-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background: var(--container-bg);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.song-info-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.song-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.song-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color-strong);
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    max-width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.song-artist {
+    font-size: 1.1rem;
+    color: var(--secondary-text);
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.9;
+}
+
+.song-duration {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: monospace;
+    font-size: 1rem;
+    color: var(--text-color);
+    background: rgba(var(--container-bg-rgb), 0.8);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+}
+
+.duration-divider {
+    opacity: 0.5;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .current-song-info {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .img-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .song-title {
+        font-size: 1.3rem;
+    }
+
+    .song-artist {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .current-song-info {
+        padding: 1rem 0.5rem;
+        gap: 0.75rem;
+        margin: 0.5rem auto;
+    }
+
+    .img-container {
+        width: 130px;
+        height: 130px;
+    }
+
+    .song-title {
+        font-size: 1.2rem;
+        -webkit-line-clamp: 1;
+    }
+
+    .song-artist {
+        font-size: 0.95rem;
+    }
+
+    .song-duration {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+/* Landscape Mode & Lock Screen */
+@media screen and (max-height: 480px) {
+    .current-song-info {
+        flex-direction: row;
+        padding: 0.75rem;
+        gap: 1rem;
+    }
+
+    .img-container {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+    }
+
+    .song-info-details {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .song-meta {
+        align-items: flex-start;
+    }
+}
+
+/* Lock Screen Media Session Styling */
+@media screen and (display-mode: fullscreen) {
+    .current-song-info {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(var(--container-bg-rgb), 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 1000;
+        margin: 0;
+        border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+        box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.2);
+        flex-direction: row;
+        align-items: center;
+        padding: 0.75rem 1rem;
+    }
+
+    .img-container {
+        width: 60px;
+        height: 60px;
+        margin-right: 1rem;
+    }
+
+    .song-info-details {
+        flex: 1;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .song-meta {
+        align-items: flex-start;
+    }
+}
