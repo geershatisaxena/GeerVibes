@@ -154,7 +154,7 @@ const songs = [
     },
     {
         title:"Aaj Ki Raat",
-        artist:"Sachin-Jigar, Madhubanti Bagchi, Diya Kumar",
+        artist:"Sachin-Jigar, Madhubanti Bagchi, Divya Kumar",
         src:"assets/songs/Aaj Ki Raat Stree 2 128 Kbps.mp3",
         cover:"assets/images/aajraat.jfif"
     },
