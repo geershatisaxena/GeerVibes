@@ -134,6 +134,12 @@ const songs = [
         src: "assets/songs/adiyogi.mp3",
         cover: "assets/images/adiyogi.jfif"
     },
+ {
+        title: "Jee Karda",
+        artist: "Divya Kumar, Sachin-Jigar",
+        src: "assets/songs/Jee karda.mp3",
+        cover: "assets/images/Jee.jpg"
+    },
     {
         title: "Aadiyogi",
         artist: "Kailash Kher, Sadhguru",
