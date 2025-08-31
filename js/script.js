@@ -137,10 +137,10 @@ const songs = [
  
    
     {
-        title: "Aadiyogi",
-        artist: "Kailash Kher, Sadhguru",
-        src: "assets/songs/adiyogi.mp3",
-        cover: "assets/images/adiyogi.jfif"
+        title: "Jee Karda Mar Jane ka",
+        artist: "Sachin-Jigar, Divya Kumar, Priya Saraiya",
+        src: "assets/songs/Jee karda.mp3",
+        cover: "assets/images/Jee.jpg"
     },
     {
         title:"Hare Krishna Hare Ram",
