@@ -545,6 +545,12 @@ const songs = [
         src: "assets/songs/mithi.mp3",
         cover: "assets/images/mithi.jfif"
     },
+ {
+        title: "Mahiye Jinna Sona",
+        artist: "Darshan Raval",
+        src: "assets/songs/Sona.mp3",
+        cover: "assets/images/Sona.jpg"
+    }
 
 ];
 
