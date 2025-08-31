@@ -134,12 +134,8 @@ const songs = [
         src: "assets/songs/adiyogi.mp3",
         cover: "assets/images/adiyogi.jfif"
     },
- {
-        title: "Jee Karda",
-        artist: "Divya Kumar, Sachin-Jigar",
-        src: "assets/songs/Jee karda.mp3",
-        cover: "assets/images/Jee.jpg"
-    },
+ 
+   
     {
         title: "Aadiyogi",
         artist: "Kailash Kher, Sadhguru",
@@ -473,7 +469,7 @@ const songs = [
     },
     {
         title: "Mere Dholna 3.o",
-        artist: "Sonu Nigam",
+        artist: "Amaal Mallik,Sonu Nigam",
         src: "assets/songs/Mere Dholna 3.0 Sonu Version Bhool Bhulaiyaa 3 128 Kbps.mp3",
         cover: "assets/images/bb3.jfif"
     },
