@@ -204,8 +204,8 @@ const songs = [
     },
    {
         title:"Chaand Sifarish",
-        artist:"Shaan, Kailash Kher",
-        src:"assets/songs/Chand Sifarish Fanaa 128 Kbps.mp3",
+        artist:"Jatin - Lalit,Shaan, Kailash Kher",
+        src:"assets/songs/Cf.mp3",
         cover:"assets/images/chand sifarish.jfif"
     },
     {
