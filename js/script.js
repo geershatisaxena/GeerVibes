@@ -550,7 +550,7 @@ const songs = [
         artist: "Sandesh Shandilya, Shradha Mishra",
         src: "assets/songs/Al.mp3",
         cover: "assets/images/Al.jpg"
-    }
+    },
  {
         title: "Mahiye Jinna Sona",
         artist: "Darshan Raval",
