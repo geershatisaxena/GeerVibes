@@ -134,6 +134,12 @@ const songs = [
         src: "assets/songs/adiyogi.mp3",
         cover: "assets/images/adiyogi.jfif"
     },
+{
+        title: "Oonchi Oonchi Wadi Me Baste Hai Bhole Shankar",
+        artist: "Hansraj Raghuwanshi",
+        src: "assets/songs/Oo.mp3",
+        cover: "assets/images/Oo.jpg"
+    },
  
    
     {
@@ -562,6 +568,12 @@ const songs = [
         artist: "Darshan Raval",
         src: "assets/songs/Sona.mp3",
         cover: "assets/images/Sona.jpg"
+    },
+{
+        title: "Kal Ho Na Ho",
+        artist: "Shankar-Ehsaan-Loy, Sonu Nigam",
+        src: "assets/songs/Khn.mp3",
+        cover: "assets/images/Khn.webp"
     }
 
 ];
