@@ -551,6 +551,12 @@ const songs = [
         src: "assets/songs/Al.mp3",
         cover: "assets/images/Al.jpg"
     },
+{
+        title: "Ladki Kyon Ladko Si Nahi Hoti",
+        artist: "Jatin-Lalit, Shaan, Alka Yagnik",
+        src: "assets/songs/Ldk.mp3",
+        cover: "assets/images/Ldk.jpg"
+    },
  {
         title: "Mahiye Jinna Sona",
         artist: "Darshan Raval",
