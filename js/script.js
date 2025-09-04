@@ -141,7 +141,12 @@ const songs = [
         cover: "assets/images/Oo.jpg"
     },
  
-   
+   {
+        title: "Jay Shree Mahakal",
+        artist: "Kailash Kher",
+        src: "assets/songs/Jsm.mp3",
+        cover: "assets/images/Jsm.jpg"
+    },
     {
         title: "Jee Karda Mar Jane ka",
         artist: "Sachin-Jigar, Divya Kumar, Priya Saraiya",
@@ -598,8 +603,32 @@ const songs = [
         artist: "Shankar-Ehsaan-Loy, Sonu Nigam",
         src: "assets/songs/Khn.mp3",
         cover: "assets/images/Khn.webp"
-    }
+    },
+{
+        title: "Param Sundari",
+        artist: "A.R.Rahma, Shaan,Shreya Ghoshal",
+        src: "assets/songs/Ps.mp3",
+        cover: "assets/images/Ps.jpg"
+    },
+{
+        title: "Ruaan",
+        artist: "Pritam, Arijit Singh",
+        src: "assets/songs/R.mp3",
+        cover: "assets/images/R.jpg"
+    },
+{
+        title: "Kamariya",
+        artist: "Aastha Gill, Sachin Sanghvi,   Jigar Saraiya, Divya Kumar",
+        src: "assets/songs/K.mp3",
+        cover: "assets/images/K.jpg"
+    },
 
+{
+        title: "Baaki Sab Theek",
+        artist: "Sachin Sanghvi, Jigar Saraiya, Amitabh Bhattacharya",
+        src: "assets/songs/Bst.mp3",
+        cover: "assets/images/Bst.jpg"
+    },
 ];
 
 // DOM Elements
