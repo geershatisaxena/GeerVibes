@@ -570,6 +570,30 @@ const songs = [
         cover: "assets/images/Sona.jpg"
     },
 {
+        title: "Tenu Le ke Mai Jawanga",
+        artist: "Sonu Nigam, Mahalaxmi Iyer",
+        src: "assets/songs/Sng.mp3",
+        cover: "assets/images/Sng.jpg"
+    },
+{
+        title: "Aao Milo Chale",
+        artist: "Pritam, Shaan,Sultan Khan",
+        src: "assets/songs/Amc.mp3",
+        cover: "assets/images/Amc.jpg"
+    },
+{
+        title: "Savera",
+        artist: "Javed Ali, Madhubanti Bagchi",
+        src: "assets/songs/Svr.mp3",
+        cover: "assets/images/Svr.jpg"
+    },
+{
+        title: "Lak 28 Kudi Da",
+        artist: "Yo Yo Honey Singh, Diljit Dosanjh",
+        src: "assets/songs/Lak.mp3",
+        cover: "assets/images/Lak.jpg"
+    },
+{
         title: "Kal Ho Na Ho",
         artist: "Shankar-Ehsaan-Loy, Sonu Nigam",
         src: "assets/songs/Khn.mp3",
