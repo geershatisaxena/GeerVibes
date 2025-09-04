@@ -585,7 +585,7 @@ const songs = [
         title: "Savera",
         artist: "Javed Ali, Madhubanti Bagchi",
         src: "assets/songs/Svr.mp3",
-        cover: "assets/images/Svr.jpg"
+        cover: "assets/images/Sav.jpg"
     },
 {
         title: "Lak 28 Kudi Da",
