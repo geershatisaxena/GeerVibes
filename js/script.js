@@ -629,6 +629,19 @@ const songs = [
         src: "assets/songs/Bst.mp3",
         cover: "assets/images/Bst.jpg"
     },
+{
+        title:"Meri Bheegi Bheegi Si",
+        artist:"R.D.Burman, Kishore Kumar",
+        src:"assets/songs/Mbb.mp3",
+        cover:"assets/images/Mbb.jpg"
+    },
+{
+        title:"Ladki Pahadi",
+        artist:"Amit Trivedi, Abhijeet Srivastava",
+        src:"assets/songs/Lpi.mp3",
+        cover:"assets/images/Lpi.jpg"
+    }
+
 ];
 
 // DOM Elements
