@@ -636,6 +636,18 @@ const songs = [
         cover:"assets/images/Mbb.jpg"
     },
 {
+        title: "Prem Ratan Dhan Payo",
+        artist: "Himesh Reshammiya, Palak Muchhal",
+        src: "assets/songs/Prdp.mp3",
+        cover: "assets/images/Prdp.jpg"
+    },
+{
+        title: "Jalte Diye",
+        artist: "Himesh Reshammiya, Anwesshaa, Vineet Singh, Harshdeep Kaur, Shabab Sabri, Chorus",
+        src: "assets/songs/Jalte.mp3",
+        cover: "assets/images/Jalte.jpg"
+    },
+{
         title:"Ladki Pahadi",
         artist:"Amit Trivedi, Abhijeet Srivastava",
         src:"assets/songs/Lpi.mp3",
