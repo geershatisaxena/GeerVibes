@@ -652,8 +652,19 @@ const songs = [
         artist:"Amit Trivedi, Abhijeet Srivastava",
         src:"assets/songs/Lpi.mp3",
         cover:"assets/images/Lpi.jpg"
-    }
-
+    },
+{
+        title: "Maula Mere Maula",
+        artist: "Mithoon, Roop Kumar Rathod",
+        src: "assets/songs/Maula.mp3",
+        cover: "assets/images/Maula.jpg"
+    },
+{
+        title: "Javeda Zindagi(Tose Naina Laage)",
+        artist: "Mithoon, Shilpa Rao, Kshitij Tarey",
+        src: "assets/songs/Tose.mp3",
+        cover: "assets/images/Tose.jpg"
+    },
 ];
 
 // DOM Elements
