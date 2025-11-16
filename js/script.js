@@ -99,6 +99,12 @@ const songs = [
         cover:"assets/images/download (1).jfif"
     },
     {
+        title:"Mahisasura Mardini Stotram",
+        artist:"Dr Kumar Vishwas",
+        src:"assets/songs/Aigiri Nandini  Dr Kumar Vishwas  महषसर मरदन सततर  Navratri Special.mp3",
+        cover:"assets/images/ayigiri.jpg"
+    },
+    {
         title:"Gajanana Gajanana Gajanana Ganaraya",
         artist:"Sukhwinder Singh",
         src:"assets/songs/Gajanana - Bajirao Mastani 128 Kbps.mp3",
@@ -109,6 +115,24 @@ const songs = [
         artist:"Raaj Ashoo, Jubin Nautiyal, Jaya Kishori",
         src:"assets/songs/Siya Ram (PenduJatt.Com.Se).mp3",
         cover:"assets/images/ramji.jpg"
+    },
+    {
+        title: "Sabse Sundar Sapne Ram",
+        artist: "Dr Kumar Vishwas",
+        src: "assets/songs/सबस सदर सपन रम  Sabse Sundar Sapne Ram  Dr Kumar Vishwas  Full HD Video.mp3",
+        cover: "assets/images/Sundarram.jpg"
+    },
+    {
+        title:"Ram Raja Bhi Hain aur Tapasvi Bhi Hain",
+        artist:"Dr Kumar Vishwas",
+        src:"assets/songs/Ram Raja Bhi Hain Aur Tapasvi Bhi Hain  Dr Kumar Vishwas  Full HD Video.mp3",
+        cover:"assets/images/rajaram.jpg"
+    },
+    {
+        title:"Zara Halke Gaadi Haako",
+        artist:"Dr Kumar Vishwas",
+        src:"assets/songs/ज़र हलक गड़ हक  Zara Halke Gaadi Haako  Dr Kumar Vishwas.mp3",
+        cover:"assets/images/Halkegaadi.jpg"
     },
     {
         title:"Tune jo Na Kaha",
@@ -209,7 +233,7 @@ const songs = [
     },
     {
         title:"Tumhare Bina",
-        artist:"Kumar Vishwas, Geershati Saxena",
+        artist:"Dr , Geershati Saxena",
         src:"assets/songs/ज़िन्दगी से लड़ा हूँ तुम्हारे बिना, हाशि.mp3",
         cover:"assets/images/kv.jfif"
     }, 
@@ -408,13 +432,13 @@ const songs = [
     },
     {
         title:"Tumhare Bina 2",
-        artist:"Kumar Vishwas, Geershati Saxena",
+        artist:"Dr Kumar Vishwas, Geershati Saxena",
         src:"assets/songs/Tumhare Bina.mp3",
         cover:"assets/images/kv.jfif"
     },
     {
         title:"Tumahre Bina 3",
-        artist:"Kumar Vishwas, Geershati Saxena",
+        artist:"Dr Kumar Vishwas, Geershati Saxena",
         src:"assets/songs/Tumahre Bina 2.mp3",
         cover:"assets/images/kv.jfif"
     },
@@ -715,13 +739,13 @@ const songs = [
     },
 {
         title:"Ye Ganga Ka Kinara Hai",
-        artist:"Kumar Vishwas ",
+        artist:"Dr Kumar Vishwas ",
         src:"assets/songs/Ganga.mp3",
         cover:"assets/images/Ganga.jpg"
     },
 {
         title:"Raam Mile Hain",
-        artist:"Kumar Vishwas ",
+        artist:"Dr Kumar Vishwas ",
         src:"assets/songs/Mile.mp3",
         cover:"assets/images/Mile.jpg"
     },
@@ -739,7 +763,7 @@ const songs = [
     },
 {
         title:"Meera Ke Krishna",
-        artist:"Mamata Sharma, Kumar Vishwas ",
+        artist:"Mamata Sharma, Dr Kumar Vishwas ",
         src:"assets/songs/Meera.mp3",
         cover:"assets/images/Meera.png"
     },
@@ -872,7 +896,7 @@ const songs = [
     },
 {
         title: "Tumhare Bina",
-        artist: "Kumar Vishwas",
+        artist: "Dr Kumar Vishwas",
         src: "assets/songs/Tb.mp3",
         cover: "assets/images/Tb.jpg"
     },
@@ -902,7 +926,7 @@ const songs = [
     },
 {
         title: "Swarn Swar Bharat",
-        artist: "Kailash Kher, Suresh Wadkar, Ravi Kishan, Kumar Vishwas",
+        artist: "Kailash Kher, Suresh Wadkar, Ravi Kishan, Dr Kumar Vishwas",
         src: "assets/songs/Ssb.mp3",
         cover: "assets/images/Ssb.jpg"
     },
