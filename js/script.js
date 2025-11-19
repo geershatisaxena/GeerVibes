@@ -598,13 +598,13 @@ const songs = [
         src: "assets/songs/mithi.mp3",
         cover: "assets/images/mithi.jfif"
     },
-{
+    {
         title: "Akelo Chal Padiyo",
         artist: "Sandesh Shandilya, Shradha Mishra",
         src: "assets/songs/Al.mp3",
         cover: "assets/images/Al.jpg"
     },
-{
+    {
         title: "Ladki Kyon Ladko Si Nahi Hoti",
         artist: "Jatin-Lalit, Shaan, Alka Yagnik",
         src: "assets/songs/Ldk.mp3",
@@ -1110,6 +1110,12 @@ const songs = [
         artist: "Salim-Sulaiman",
         src: "assets/songs/Dancing Jodi Rab Ne Bana Di Jodi 128 Kbps.mp3",
         cover: "assets/images/Rab-Ne-Bana-Di-Jodi-Hindi-2008-500x500.jpg"
+    },
+    {
+        title: "Mera Inteqam Dekhegi",
+        artist: "Anand Raaj Anand, Krishna Beuraa",
+        src: "assets/songs/Mera Intkam Dekhegi - Lyrical  Shaadi Mein Zaroor Aana  Rajkummar R, Kriti K  Krishna Beuraa.mp3",
+        cover: "assets/images/inteqam.jpg"
     }
 ];
 
