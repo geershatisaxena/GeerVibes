@@ -1112,6 +1112,18 @@ const songs = [
         cover: "assets/images/Rab-Ne-Bana-Di-Jodi-Hindi-2008-500x500.jpg"
     },
     {
+        title: "Teri Meri Prem Kahani",
+        artist: "Himesh Reshammiya, Rahat Fateh Ali Khan, Shreya Ghoshal",
+        src: "assets/songs/Teri Meri Bodyguard 128 Kbps.mp3",
+        cover: "assets/images/terimeri.jpg"
+    },
+    {
+        title: "Chal Chaiya Chaiya",
+        artist: " A.R Rahman, Sukhwinder Singh, Sapna Awasthi",
+        src: "assets/songs/Chaiyya Chaiyya Dil Se 128 Kbps.mp3",
+        cover: "assets/images/chaiya.jpg"
+    },
+    {
         title: "Mera Inteqam Dekhegi",
         artist: "Anand Raaj Anand, Krishna Beuraa",
         src: "assets/songs/Mera Intkam Dekhegi - Lyrical  Shaadi Mein Zaroor Aana  Rajkummar R, Kriti K  Krishna Beuraa.mp3",
