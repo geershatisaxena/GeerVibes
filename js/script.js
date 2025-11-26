@@ -1124,6 +1124,12 @@ const songs = [
         cover: "assets/images/chaiya.jpg"
     },
     {
+        title: "Ek Aur Rang Bhi Dekhiye Bengal Ka",
+        artist: " Jeet Ganguli",
+        src: "assets/songs/Khakee The Bengal Chapter Full Title Track (From 7 Episodes).mp3",
+        cover: "assets/images/bengal.jpg"
+    },
+    {
         title: "Mera Inteqam Dekhegi",
         artist: "Anand Raaj Anand, Krishna Beuraa",
         src: "assets/songs/Mera Intkam Dekhegi - Lyrical  Shaadi Mein Zaroor Aana  Rajkummar R, Kriti K  Krishna Beuraa.mp3",
