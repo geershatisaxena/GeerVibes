@@ -1134,6 +1134,24 @@ const songs = [
         artist: "Anand Raaj Anand, Krishna Beuraa",
         src: "assets/songs/Mera Intkam Dekhegi - Lyrical  Shaadi Mein Zaroor Aana  Rajkummar R, Kriti K  Krishna Beuraa.mp3",
         cover: "assets/images/inteqam.jpg"
+    },
+   {
+        title:"Jhalak Dikhla Jaa",
+        artist:"Himesh Reshammiya",
+        src:"assets/songs/Jhalak Dikhla Ja Aksar 128 Kbps.mp3",
+        cover:"assets/images/jhalak.webp"
+    },
+      {
+        title:"Ik Vaari Aa",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Ik Vaari Aa Raabta 128 Kbps.mp3",
+        cover:"assets/images/vaari.jpg"
+    },
+    {
+        title:"Raabta",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Raabta Agent Vinod 128 Kbps.mp3",
+        cover:"assets/images/romantic-people-being-love.jpg"
     }
 ];
 
