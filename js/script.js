@@ -1152,7 +1152,51 @@ const songs = [
         artist:"Pritam, Arijit Singh",
         src:"assets/songs/Raabta Agent Vinod 128 Kbps.mp3",
         cover:"assets/images/romantic-people-being-love.jpg"
+    },
+    {
+        title:"Deewaniyat",
+        artist:"Vishal Mishra",
+        src:"assets/songs/Deewaniyat (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/deewaniyat.jpg"
+    },
+    {
+        title:"Dard Dilo Ke Kam Ho Jate",
+        artist:"Himesh Reshammiya, Mohhammed Irfan",
+        src:"assets/songs/Dard Dilo Ke The Xpose 128 Kbps.mp3",
+        cover:"assets/images/darddiloke.jpg"
+    },
+    {
+        title:"Banjaare Ko Ghar",
+        artist:"Mithoon, Mohhammed Irfan",
+        src:"assets/songs/Banjaara Ek Villain 128 Kbps.mp3",
+        cover:"assets/images/banjara.jpg"
+    },
+    {
+        title:"Tum Ho Toh",
+        artist:"Vishal Mishra",
+        src:"assets/songs/Tum Ho Toh Saiyaara 128 Kbps.mp3",
+        cover:"assets/images/tumhotoh.jpg"
+    },
+    {    
+        title:"Mujhe Teri Zaroorat Hai",
+        artist:"Mithoon, Mustafa Zahid",
+        src:"assets/songs/Zaroorat Ek Villain 128 Kbps.mp3",
+        cover:"assets/images/zaroorat.jpg"
+    },
+    {    
+        title:"Kar Dega Barbaad Ishq Mujhe",
+        artist:"The Rish, Jubin Nautiyal",
+        src:"assets/songs/Barbaad Saiyaara 128 Kbps.mp3",
+        cover:"assets/images/barbaadsong.jpg"
+    },
+    {    
+        title:"Baarish",
+        artist:"Mithoon, Mohhammed Irfan",
+        src:"assets/songs/Baarish Yaariyan Mohammed Irfan 128 Kbps.mp3",
+        cover:"assets/images/baarish.jpg"
     }
+
+
 ];
 
 // DOM Elements
