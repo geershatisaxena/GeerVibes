@@ -1194,7 +1194,69 @@ const songs = [
         artist:"Mithoon, Mohhammed Irfan",
         src:"assets/songs/Baarish Yaariyan Mohammed Irfan 128 Kbps.mp3",
         cover:"assets/images/baarish.jpg"
+    },
+    {    
+        title:"Chaudhary",
+        artist:"Amit Trivedi, Mame Khan",
+        src:"assets/songs/Chaudhary - Amit Trivedi feat Mame Khan, Coke Studio @ MTV Season 2.mp3",
+        cover:"assets/images/chaudhary.jpg"
+    },
+    {    
+        title:"Ishq Jalakar",
+        artist:"Shashwat Sachdev, Shahzad Ali, Subhadeep Das Chowdhury, Armaan Khan",
+        src:"assets/songs/Ishq Jalakar - Karvaan  Dhurandhar  Ranveer Singh, Shashwat Sachdev, Aditya Dhar.mp3",
+        cover:"assets/images/jalakar.jpg"
+    },
+    {
+        title:"Chaudhary Remake",
+        artist:"Amit Trivedi, Mame Khan, Jubin Nautiyal, Yohani",
+        src:"assets/songs/Chaudhary.mp3",
+        cover:"assets/images/chj.jpg"
+    },
+    {
+        title:"Move - Ye Ishq Ishq Hai",
+        artist:"Reble, Sonu Nigam, Shashwat Sachdev",
+        src:"assets/songs/Move - Yeh Ishq Ishq (From Dhurandhar).mp3",
+        cover:"assets/images/move.jpg"
+    },
+    {
+        title:"Lutt Le Gaya",
+        artist:"Simran Choudhary",
+        src:"assets/songs/Lutt_Le_Gaya.mp3",
+        cover:"assets/images/luttlegaya.jpg"
+    },
+    {
+        title:"Dhurandhar Title Track",
+        artist:"Hanumankind, Jasmine Sandlas, Sudhir Yaduvanshi, Shashwat Sachdev, Muhammad Sadiq, Ranjit Kaur",
+        src:"assets/songs/Title Track Dhurandhar 128 Kbps.mp3",
+        cover:"assets/images/dhurandhar.jpg"
+    },
+   {
+        title:"Sharat",
+        artist:"Madhubanti Bagchi, Jasmine Sandlas",
+        src:"assets/songs/Shararat (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/shararat.jpg"
+    },
+    {
+        title:"Allah Maaf Kare",
+        artist:"Pritam, Sonu Nigam, Shilpa Rao",
+        src:"assets/songs/Allah Maaf Kare Desi Boyz 128 Kbps.mp3",
+        cover:"assets/images/allahmaafkare.jpg"
+    },
+    {
+        title:"Bijuriya",
+        artist:"Sonu Nigam, Asees Kaur",
+        src:"assets/songs/Bijuria Sunny Sanskari Ki Tulsi Kumari 128 Kbps.mp3",
+        cover:"assets/images/bijuriya.jpg"
+    },
+      {
+        title:"Jaan Ban Gaye ",
+        artist:"Mithoon, Vishal Mishra, Asees Kaur",
+        src:"assets/songs/Jaan Ban Gaye (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/bangaye.jpg"
     }
+
+
 
 
 ];
