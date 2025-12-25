@@ -1254,11 +1254,13 @@ const songs = [
         artist:"Mithoon, Vishal Mishra, Asees Kaur",
         src:"assets/songs/Jaan Ban Gaye (PenduJatt.Com.Se).mp3",
         cover:"assets/images/bangaye.jpg"
+    },
+     {
+        title:"Gehra Hua",
+        artist:"Arijit Singh, Armaan Khan",
+        src:"assets/songs/Gehra Hua Dhurandhar 128 Kbps.mp3",
+        cover:"assets/images/gehra].jpg"
     }
-
-
-
-
 ];
 
 // DOM Elements
