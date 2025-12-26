@@ -1260,7 +1260,25 @@ const songs = [
         artist:"Arijit Singh, Armaan Khan",
         src:"assets/songs/Gehra Hua Dhurandhar 128 Kbps.mp3",
         cover:"assets/images/gehra].jpg"
-    }
+    },
+    {
+        title:"Tere Sang Kaati Raatein",
+        artist:"Jeet Ganguly, Mustafa Zahid",
+        src:"assets/songs/Jo Tere Sang Blood Money 128 Kbps.mp3",
+        cover:"assets/images/teresang.jpg"
+    },
+    {
+        title:"Malhari",
+        artist:"Sanjay Leela Bhansali, Vishal Dadlani",
+        src:"assets/songs/Malhari Bajirao Mastani 128 Kbps.mp3",
+        cover:"assets/images/malhari.jpg"
+    },
+    {
+        title:"Tinku Jiya",
+        artist:"Mamta Sharma, Javed Ali",
+        src:"assets/songs/Tinku Jiya Yamla Pagla Deewana 128 Kbps.mp3",
+        cover:"assets/images/tinkujiya.jpg"
+    },
 ];
 
 // DOM Elements
