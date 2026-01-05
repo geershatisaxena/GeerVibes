@@ -1302,7 +1302,20 @@ const songs = [
         artist:"Gurnazar, Rahat Fateh Ali Khan, Kartik Dev",
         src:"assets/songs/Dost Banke - Rahat Fateh Ali Khan.mp3",
         cover:"assets/images/dostbanke.jpg"
+    },
+    {
+        title:"Dawat E Ishq",
+        artist:"Sunidhi Chauhan, Javed Ali",
+        src:"assets/songs/Daawat E Ishq Javed Ali 128 Kbps.mp3",
+        cover:"assets/images/dawat.jpg"
+    },
+    {
+        title:"Taiyab Ali",
+        artist:"Javed Ali",
+        src:"assets/songs/Tayyab Ali (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/taiyab.jpg"
     }
+
 
 ];
 
