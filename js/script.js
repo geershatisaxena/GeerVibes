@@ -1279,6 +1279,31 @@ const songs = [
         src:"assets/songs/Tinku Jiya Yamla Pagla Deewana 128 Kbps.mp3",
         cover:"assets/images/tinkujiya.jpg"
     },
+    {
+        title:"Bhar Do Jholi Meri",
+        artist:"Pritam, Adnan Sami",
+        src:"assets/songs/Bhar Do Jholi Meri Bajrangi Bhaijaan 128 Kbps.mp3",
+        cover:"assets/images/bhardo.jpg"
+    },
+    {
+        title:"Afghan Jalebi",
+        artist:"Pritam, Akhtar Chanal Zahri",
+        src:"assets/songs/Afghan Jalebi Ya Baba Phantom 128 Kbps.mp3",
+        cover:"assets/images/afganjalebi.jpg"
+    },
+    {
+        title:"Hawa Hawa",
+        artist:"Hassan Jahangir",
+        src:"assets/songs/Hawa Hawa-(SambalpuriStar.In).mp3",
+        cover:"assets/images/hawa.jpg"
+    },
+    {
+        title:"Dost Banke Rehte Hain Na",
+        artist:"Gurnazar, Rahat Fateh Ali Khan, Kartik Dev",
+        src:"assets/songs/Dost Banke - Rahat Fateh Ali Khan.mp3",
+        cover:"assets/images/dostbanke.jpg"
+    }
+
 ];
 
 // DOM Elements
