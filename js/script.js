@@ -1232,7 +1232,7 @@ const songs = [
         cover:"assets/images/dhurandhar.jpg"
     },
    {
-        title:"Sharat",
+        title:"Shararat",
         artist:"Madhubanti Bagchi, Jasmine Sandlas",
         src:"assets/songs/Shararat (PenduJatt.Com.Se).mp3",
         cover:"assets/images/shararat.jpg"
@@ -1314,7 +1314,38 @@ const songs = [
         artist:"Javed Ali",
         src:"assets/songs/Tayyab Ali (PenduJatt.Com.Se).mp3",
         cover:"assets/images/taiyab.jpg"
+    },
+      {
+        title:"Bol Na Halke Halke",
+        artist:"Rahat Fateh Ali Khan, Mahalaxmi Iyer",
+        src:"assets/songs/Bol Na Halke Halke Jhoom Barabar Jhoom 128 Kbps.mp3",
+        cover:"assets/images/bolnahalke.jpg"
+    },
+    {
+        title:"Titliaan Warga 2.o",
+        artist:"Harrdy Sandhu",
+        src:"assets/songs/Titliaan Warga - Harrdy Sandhu.mp3",
+        cover:"assets/images/nashakarta.jpg"
+    },
+    {
+        title:"Sandeshe Aate Hai",
+        artist:"Annu Malik, Roop Kumar Rathod, Sonu Nigam",
+        src:"assets/songs/Sandese Aate Hain Border 128 Kbps.mp3",
+        cover:"assets/images/sandeshe.jpg"
+    },
+    {
+        title:"Maula Mere Lele Meri Jaan",
+        artist:"Krishna, Salim Merchant, Salim–Sulaiman",
+        src:"assets/songs/Maula Mere Lele Meri Jaan Chak De India 128 Kbps.mp3",
+        cover:"assets/images/lelejaan.jpg"
+    },
+    {
+        title:"Ghar Kab Aaoge",
+        artist:"Mithoon, Sonu Nigam, Arijit Singh, Vishal Mishra, Diljit Dosanjh, Roop Kumar Rathod",
+        src:"assets/songs/Ghar Kab Aaoge Border 2 128 Kbps.mp3",
+        cover:"assets/images/gharkab.jpg"
     }
+
 
 
 ];
