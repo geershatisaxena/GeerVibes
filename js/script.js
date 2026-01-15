@@ -1344,7 +1344,21 @@ const songs = [
         artist:"Mithoon, Sonu Nigam, Arijit Singh, Vishal Mishra, Diljit Dosanjh, Roop Kumar Rathod",
         src:"assets/songs/Ghar Kab Aaoge Border 2 128 Kbps.mp3",
         cover:"assets/images/gharkab.jpg"
-    }
+    },
+    {
+        title:"Tainu Khabar Nahi",
+        artist:"Sachin-Jigar, Arijit Singh",
+        src:"assets/songs/Tainu Khabar Nahi - pagalnew.mp3",
+        cover:"assets/images/khabarnahi.jpg"
+    },
+     {
+        title:"Akhiri Kadam Tak",
+        artist:"Mithoon, Sonu Nigam",
+        src:"assets/songs/Aakhri Kadam Tak - Khuda Haafiz 192 Kbps.mp3",
+        cover:"assets/images/kadamtak.jpg"
+    },
+      
+
 
 
 
