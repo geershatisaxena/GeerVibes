@@ -1357,6 +1357,12 @@ const songs = [
         src:"assets/songs/Aakhri Kadam Tak - Khuda Haafiz 192 Kbps.mp3",
         cover:"assets/images/kadamtak.jpg"
     },
+     {
+        title:"Mera Intezaar Karna",
+        artist:"Mithoon, Arman Malik",
+        src:"assets/songs/Mera Intezaar Karna Khuda Haafiz 128 Kbps.mp3",
+        cover:"assets/images/intezaar.jpg"
+    },
       
 
 
