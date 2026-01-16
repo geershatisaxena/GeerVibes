@@ -1363,7 +1363,43 @@ const songs = [
         src:"assets/songs/Mera Intezaar Karna Khuda Haafiz 128 Kbps.mp3",
         cover:"assets/images/intezaar.jpg"
     },
-      
+      {
+        title:"Jhoome Jo Pathaan",
+        artist:"Vishal-Shekhar, Arijit Singh, Sukriti Kakar",
+        src:"assets/songs/Jhoome Jo Pathaan Title Song 128 Kbps.mp3",
+        cover:"assets/images/jhoome.jpg"
+    },  
+     {
+        title:"Besharam Rang",
+        artist:"Vishal-Shekhar, Shilpa Rao, Caralisa Monteiro",
+        src:"assets/songs/Besharam Rang Pathaan 128 Kbps.mp3",
+        cover:"assets/images/besharam.jpg"
+    },  
+    {
+        title:"Lutt Putt Gaya",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Lutt Putt Gaya Dunki 128 Kbps.mp3",
+        cover:"assets/images/lutput.jpg"
+    },
+     {
+        title:"Chaleya",
+        artist:"Anirudh Ravichander, Arijit Singh, Shilpa Rao",
+        src:"assets/songs/Chaleya Jawan 128 Kbps.mp3",
+        cover:"assets/images/chaleya.jpg"
+    },
+      {
+        title:"Nikle The Kabhi Hum Ghar Se",
+        artist:"Pritam, Sonu Nigam",
+        src:"assets/songs/Nikle The Kabhi Hum Ghar Se Dunki 128 Kbps.mp3",
+        cover:"assets/images/niklethe.jpg"
+    },
+    {
+        title:"Ye Toone Kya Kiya",
+        artist:"Pritam, Javed Bashir",
+        src:"assets/songs/Ye Tune Kya Kiya - Once Upon A Time In Mumbaai Dobara 128 Kbps.mp3",
+        cover:"assets/images/kyakiya.jpg"
+    },
+
 
 
 
