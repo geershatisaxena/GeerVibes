@@ -1394,6 +1394,12 @@ const songs = [
         cover:"assets/images/niklethe.jpg"
     },
     {
+        title:"Taajdaar E Haram",
+        artist:"Atif Aslam",
+        src:"assets/songs/Tajdar-E-Haram (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/tajdar.jpg"
+    },
+    {
         title:"Ye Toone Kya Kiya",
         artist:"Pritam, Javed Bashir",
         src:"assets/songs/Ye Tune Kya Kiya - Once Upon A Time In Mumbaai Dobara 128 Kbps.mp3",
