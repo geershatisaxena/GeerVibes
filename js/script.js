@@ -1405,6 +1405,23 @@ const songs = [
         src:"assets/songs/Ye Tune Kya Kiya - Once Upon A Time In Mumbaai Dobara 128 Kbps.mp3",
         cover:"assets/images/kyakiya.jpg"
     },
+    {
+        title:"Mitti Ke Bete",
+        artist:"Mithoon, Sonu Nigam",
+        src:"assets/songs/Mitti Ke Bete Border 2 128 Kbps.mp3",
+        cover:"assets/images/mitti.jpg"
+    },
+    {  title:"Hindustan Meri Jaan",
+        artist:"Mithoon, Mohit Chauhan, B Praak",
+        src:"assets/songs/Hindustan Meri Jaan Border 2 128 Kbps.mp3",
+        cover:"assets/images/hindustan.jpg"
+    },
+    {  title:"Jaate Hue Lamho",
+        artist:"Mithoon, Roop Kumar Rathod, Vishal Mishra",
+        src:"assets/songs/Jaate Hue Lamhon Border 2 128 Kbps.mp3",
+        cover:"assets/images/lamho.jpg"
+    },
+
 
 
 
