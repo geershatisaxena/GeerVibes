@@ -1421,6 +1421,11 @@ const songs = [
         src:"assets/songs/Jaate Hue Lamhon Border 2 128 Kbps.mp3",
         cover:"assets/images/lamho.jpg"
     },
+    {  title:"Dekhte Dekhte",
+        artist:"Rochak Kohli, Atif Aslam",
+        src:"assets/songs/Dekhte Dekhte Batti Gul Meter Chalu 128 Kbps.mp3",
+        cover:"assets/images/dekhte.jpg"
+    },
 
 
 
