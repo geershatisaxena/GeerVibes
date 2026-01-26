@@ -1426,6 +1426,16 @@ const songs = [
         src:"assets/songs/Dekhte Dekhte Batti Gul Meter Chalu 128 Kbps.mp3",
         cover:"assets/images/dekhte.jpg"
     },
+    {  title:"Awara Angara",
+        artist:"Faheem Abdullah, A.R. Rahman",
+        src:"assets/songs/Aawaara Angaara Tere Ishk Mein 128 Kbps.mp3",
+        cover:"assets/images/awara.jpg"
+    },
+    {  title:"Dil Lagana Mana Tha",
+        artist:"Krish Mondal, Kishore Mondal ",
+        src:"assets/songs/dil lagana mana tha.mp3",
+        cover:"assets/images/dillagana.jpg"
+    },
 
 
 
