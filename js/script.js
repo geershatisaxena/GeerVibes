@@ -1433,8 +1433,13 @@ const songs = [
     },
     {  title:"Dil Lagana Mana Tha",
         artist:"Krish Mondal, Kishore Mondal ",
-        src:"assets/songs/dil lagana mana tha.mp3",
+        src:"assets/songs/stream.mp3",
         cover:"assets/images/dillagana.jpg"
+    },
+     {  title:"Hindustan Meri Jaan Live",
+        artist:"Mithoon",
+        src:"assets/songs/Hindustan Meri Jaan - Live at INS Vikrant  BORDER 2  Sunny Deol  Mithoon, Manoj Muntashir.mp3",
+        cover:"assets/images/zindabad.jpg"
     },
 
 
