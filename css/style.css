@@ -218,6 +218,14 @@ body {
     position: relative;
 }
 
+.logo-image {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px var(--primary-color));
+    animation: pulse-icon 2s ease-in-out infinite;
+}
+
 .logo i {
     color: var(--primary-color);
     font-size: 1.8rem;

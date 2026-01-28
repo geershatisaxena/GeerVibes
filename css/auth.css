@@ -115,3 +115,10 @@
 .auth-box {
     animation: fadeIn 0.5s ease-out;
 }
+/* Logo Styling */
+.logo-small {
+    height: 40px;
+    width: 40px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
