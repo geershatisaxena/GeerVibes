@@ -753,7 +753,7 @@ const songs = [
         title:"Ghar More Pardesiya",
         artist:"Pritam, Shreya Ghoshal, Vaishali Mhade",
         src:"assets/songs/Pardesiya.mp3",
-        cover:"assets/images/Pardesiya.jpg"
+        cover:"assets/images/gharmore.jpg"
     },
 {
         title:"Apna Bana Le Piya",
