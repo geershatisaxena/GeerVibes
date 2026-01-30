@@ -1441,6 +1441,11 @@ const songs = [
         src:"assets/songs/Hindustan Meri Jaan - Live at INS Vikrant  BORDER 2  Sunny Deol  Mithoon, Manoj Muntashir.mp3",
         cover:"assets/images/zindabad.jpg"
     },
+    {  title:"Koi Kahe Kehta Rahe",
+        artist:"Shankar-Ehsaan-Loy, Shankar Mahadevan, Shaan, KK",
+        src:"assets/songs/Koi Kahe Kehta Rahe [128 Kbps]-(SongsPk.com.se).mp3",
+        cover:"assets/images/koikahe.jpg"
+    },
 
 
 
