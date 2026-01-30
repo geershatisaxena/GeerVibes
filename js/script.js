@@ -648,7 +648,7 @@ const songs = [
     },
 {
         title: "Param Sundari",
-        artist: "A.R.Rahma, Shaan,Shreya Ghoshal",
+        artist: "A.R.Rahma,Shreya Ghoshal",
         src: "assets/songs/Ps.mp3",
         cover: "assets/images/Ps.jpg"
     },
