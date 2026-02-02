@@ -1446,6 +1446,12 @@ const songs = [
         src:"assets/songs/Koi Kahe Kehta Rahe [128 Kbps]-(SongsPk.com.se).mp3",
         cover:"assets/images/koikahe.jpg"
     },
+    {  title:"Suno Na Sangemarmar",
+        artist:"Jeet Ganguly, Arijit Singh",
+        src:"assets/songs/Suno Na Sangemarmar Youngistaan 128 Kbps.mp3",
+        cover:"assets/images/suno-na-sangemarmar-guitar-tabs-jxykj5gj.jpeg"
+    },
+
 
 
 
