@@ -822,6 +822,12 @@ const songs = [
         src: "assets/songs/Thrh.mp3",
         cover: "assets/images/Thrh.jpg"
     },
+    {  title:"Kuchh Toh Hua Hai",
+        artist:"Shaan, Alka Yagnik",
+        src:"assets/songs/Kuch To Hua Hai Kal Ho Naa Ho 128 Kbps.mp3",
+        cover:"assets/images/800x800cc.jpg"
+    },
+
 {
         title: "Kaise Hua",
         artist: "Vishal Mishra",
