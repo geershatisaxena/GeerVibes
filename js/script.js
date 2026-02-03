@@ -1457,6 +1457,27 @@ const songs = [
         src:"assets/songs/Suno Na Sangemarmar Youngistaan 128 Kbps.mp3",
         cover:"assets/images/suno-na-sangemarmar-guitar-tabs-jxykj5gj.jpeg"
     },
+     {  title:"Ve Kamleya",
+        artist:"Arijit Singh, Shreya Ghoshal",
+        src:"assets/songs/Ve Kamleya Rocky Aur Rani Kii Prem Kahaani 128 Kbps.mp3",
+        cover:"assets/images/vekamleya.jpg"
+    },
+    {  title:"Khairiyat",
+        artist:"Pritam , Arijit Singh",
+        src:"assets/songs/Khairiyat Chhichhore 128 Kbps.mp3",
+        cover:"assets/images/khairiyat.jpg"
+    },
+    {  title:"Ve Kamleya Asees Kaur Version",
+        artist:"Asees Kaur",
+        src:"assets/songs/Ve Kamleya - Asees Version (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/asees.jpg"
+    },
+    {  title:"Soulmate",
+        artist:"Arijit Singh, Baadshah",
+        src:"assets/songs/Soulmate Ek Tha Raja 128 Kbps.mp3",
+        cover:"assets/images/soulmate.jpg"
+    },
+
 
 
 
