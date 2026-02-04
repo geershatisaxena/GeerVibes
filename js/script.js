@@ -1477,6 +1477,44 @@ const songs = [
         src:"assets/songs/Soulmate Ek Tha Raja 128 Kbps.mp3",
         cover:"assets/images/soulmate.jpg"
     },
+    {  title:"The Breakup Song",
+        artist:"Pritam, Arijit Singh, Baadshah",
+        src:"assets/songs/The Breakup Song - Ae Dil Hai Mushkil (pagalall.com).mp3",
+        cover:"assets/images/breakup.jpg"
+    },
+    {  title:"Ud Jaa Kaale Kawa",
+        artist:"Mithoon, Udit Narayan, Alka Yagnik",
+        src:"assets/songs/Udd Jaa Kaale Kaava  Gadar 2  Sunny Deol, Ameesha  Mithoon, Udit N, Alka Y  Uttam S  Lyrical.mp3",
+        cover:"assets/images/udja.jpg"
+    },
+    {  title:"Dil Jhoom jhoom Vishal Mishra Version",
+        artist:"Mithoon, Vishal Mishra",
+        src:"assets/songs/Vishal_Mishra_-_Dil_Jhoom_OST_Gadar_2_(mp3.pm).mp3",
+        cover:"assets/images/diljhoom.jpg"
+    },
+    {  title:"Dil Jhoom jhoom",
+        artist:"Mithoon, Arijit Singh",
+        src:"assets/songs/Dil Jhoom8 Gadar 2 128 Kbps.mp3",
+        cover:"assets/images/jhoom.jpg"
+    },
+    {  title:"Chal Tere Ishq Mein",
+        artist:"Mithoon, Neeti Mohan, Vishal Mishra",
+        src:"assets/songs/Chal Tere Ishq Mein - pagalmusic.mp3",
+        cover:"assets/images/tereishq.jpg"
+    },
+    {  title:"Ud Jaa Kaale Kawa Climax Version",
+        artist:"Mithoon, Udit Narayan, Jubin Nautiyal",
+        src:"assets/songs/Udd Jaa Kaale Kaava (Climax Version) - Full Audio  Gadar 2  Sunny D, Ameesha Mithoon, Udit, Jubin.mp3",
+        cover:"assets/images/climax.jpg"
+    },
+    {  title:"Mere Haathon Mein",
+        artist:"Sonu Nigam, Sunidhi Chauhan",
+        src:"assets/songs/Mere Haath Mein Fanaa 128 Kbps.mp3",
+        cover:"assets/images/mere hath me.jpg"
+    },
+
+
+
 
 
 
