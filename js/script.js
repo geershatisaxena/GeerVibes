@@ -1512,6 +1512,11 @@ const songs = [
         src:"assets/songs/Mere Haath Mein Fanaa 128 Kbps.mp3",
         cover:"assets/images/mere hath me.jpg"
     },
+    {  title:"Aya Tere Dar Par",
+        artist:"Ahmed Hussain, Javed Hussain, Mohd. Hussain, Mohammed Vakil, Mohammad Hussein",
+        src:"assets/songs/Aaya Tere Dar Par Veer Zaara 128 Kbps.mp3",
+        cover:"assets/images/aya.jpg"
+    },
 ];
 
 // DOM Elements
