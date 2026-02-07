@@ -26,10 +26,10 @@
 .logo span {
   background: linear-gradient(
     45deg,
-    #ff0101,
-    #e71818,
-    #f70c6a,
-    #b9e75c
+    #ffa601,
+    #18e76e,
+    #f70cc8,
+    #5ce7e7
   );
   background-size: 300%;
   -webkit-background-clip: text;

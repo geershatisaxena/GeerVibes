@@ -24,13 +24,13 @@ html {
 
 :root {
     /* Core Colors */
-    --primary-color: #4361ee;
-    --secondary-color: #3f37c9;
-    --accent-color: #4895ef;
+    --primary-color: #f00f69;
+    --secondary-color: #d2581a;
+    --accent-color: #b91154;
     
     /* Light Theme */
     --background-color: #f8f9fa;
-    --container-bg: #ffffff;
+    --container-bg: #4c0d0d;
     --text-color: #2d3436;
     --text-color-strong: #1a1a1a;
     --title-gradient: linear-gradient(135deg, #ff0101, #dde110);
@@ -136,7 +136,7 @@ html {
     --container-bg: #2d2e32;
     --text-color: #f1f2f6;
     --text-color-strong: #ffffff;
-    --primary-color: #66b6ff;
+    --primary-color: #a81052;
     --secondary-color: #72e698;
     --accent-color: #ff8ac4;
     --title-gradient: linear-gradient(135deg, #66b6ff, #72e698);
