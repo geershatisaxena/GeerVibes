@@ -1514,7 +1514,7 @@ const songs = [
     },
     {  title:"Aya Tere Dar Par",
         artist:"Ahmed Hussain, Javed Hussain, Mohd. Hussain, Mohammed Vakil, Mohammad Hussein",
-        src:"assets/songs/Aaya Tere Dar Par Veer Zaara 128 Kbps.mp3",
+        src:"assets/songs/Aaya Tere Dar Par.mp3",
         cover:"assets/images/aya.jpg"
     },
 ];
