@@ -1517,6 +1517,11 @@ const songs = [
         src:"assets/songs/Aaya Tere Dar Par.mp3",
         cover:"assets/images/aya.jpg"
     },
+    {  title:"Pyaar Ki Ek Kahani",
+        artist:"Sonu Nigam, Shreya Ghoshal",
+        src:"assets/songs/Pyaar Ki Ek Kahani Krrish 128 Kbps.mp3",
+        cover:"assets/images/pyar.jpg"
+    },
 ];
 
 // DOM Elements
