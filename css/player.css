@@ -10,8 +10,8 @@
   --text-color-strong: #111;
   --secondary-text: #666;
   --border-radius-lg: 1rem;
-  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 6px 20px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 4px 10px rgb(14, 243, 216);
+  --shadow-lg: 0 6px 20px rgb(5, 170, 110);
   --transition-default: all 0.3s ease;
 }
 
