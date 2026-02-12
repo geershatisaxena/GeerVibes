@@ -1522,6 +1522,13 @@ const songs = [
         src:"assets/songs/Pyaar Ki Ek Kahani Krrish 128 Kbps.mp3",
         cover:"assets/images/pyar.jpg"
     },
+    {
+         title:"Ramba Ho Remix",
+        artist:"Usha Uthup, Madhubanti Bagchi",
+        src:"assets/songs/Ramba Ho Dhurandhar 128 Kbps.mp3",
+        cover:"assets/images/rambaho.jpg"
+    
+    }
 ];
 
 // DOM Elements
