@@ -294,7 +294,7 @@ const songs = [
     {
         title: "High Rated Gabru",
         artist: "Guru Randhawa",
-        src: "assets/songs/High_Rated_Gabru_1.mp3",
+        src: "assets/songs/High Rated Gabru - Guru Randhawa.mp3",
         cover: "assets/images/High rated gabru.jfif"
     },
     {
@@ -698,7 +698,7 @@ const songs = [
 {
         title: "Maula Mere Maula",
         artist: "Mithoon, Roop Kumar Rathod",
-        src: "assets/songs/Maula.mp3",
+        src: "assets/songs/Roop_Kumar_Rathod_-_Maula_Mere_Maula_Aankhen_Teri_(mp3.pm).mp3",
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFglCcgrk2O-gezrSJOtvy86GVb2DFllzkMg&s"
     },
 {
@@ -1528,7 +1528,22 @@ const songs = [
         src:"assets/songs/Ramba Ho Dhurandhar 128 Kbps.mp3",
         cover:"assets/images/rambaho.jpg"
     
-    }
+    },
+    {
+        title:"Lagdi Lahore ",
+        artist:"Guru Randhawa",
+        src:"assets/songs/Lahore Guru Randhawa 128 Kbps.mp3",
+        cover:"assets/images/lahore.jpg"
+    
+    },
+    {
+        title:"Made In India",
+        artist:"Guru Randhawa",
+        src:"assets/songs/Made In India - Guru Randhawa.mp3",
+        cover:"assets/images/madeinindia.jpg"
+    
+    },
+
 ];
 
 // DOM Elements
