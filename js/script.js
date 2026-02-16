@@ -1543,6 +1543,13 @@ const songs = [
         cover:"assets/images/madeinindia.jpg"
     
     },
+    {
+        title:"Tumhe Kitna Pyaar Karte ",
+        artist:"Mithoon, Arijit Singh",
+        src:"assets/songs/Tumhe Kitna Pyaar Karte Bawaal 128 Kbps.mp3",
+        cover:"assets/images/pyarkarte.jpg"
+    
+    },
 
 ];
 
