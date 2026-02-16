@@ -744,7 +744,7 @@ const songs = [
 {
         title:"Meera Ke Krishna",
         artist:"Mamata Sharma, Dr Kumar Vishwas ",
-        src:"assets/songs/Meera.mp3",
+        src:"assets/songs/रध क करज चक गई मर  Dr Kumar Vishwas  Meera.mp3",
         cover:"assets/images/Meera.png"
     },
 {
