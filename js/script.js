@@ -231,12 +231,7 @@ const songs = [
         src:"assets/songs/Zinda Banda (Jawan)-(Mr-Jat.in).mp3",
         cover:"assets/images/zb.jfif"
     },
-    {
-        title:"Tumhare Bina",
-        artist:"Dr , Geershati Saxena",
-        src:"assets/songs/ज़िन्दगी से लड़ा हूँ तुम्हारे बिना, हाशि.mp3",
-        cover:"assets/images/kv.jfif"
-    }, 
+    
     {
         title: "Barsaat Ho Jaaye",
         artist: "Jubin Nautiyal",
@@ -430,30 +425,15 @@ const songs = [
         src:"assets/songs/Born To Shine - Diljit Dosanjh.mp3",
         cover:"assets/images/dd.jfif"
     },
-    {
-        title:"Tumhare Bina 2",
-        artist:"Dr Kumar Vishwas, Geershati Saxena",
-        src:"assets/songs/Tumhare Bina.mp3",
-        cover:"assets/images/kv.jfif"
-    },
-    {
-        title:"Tumahre Bina 3",
-        artist:"Dr Kumar Vishwas, Geershati Saxena",
-        src:"assets/songs/Tumahre Bina 2.mp3",
-        cover:"assets/images/kv.jfif"
-    },
+    
+   
     {
         title:"Saami Saami",
         artist:"Sunidhi Chauhan",
         src:"assets/songs/Saami Saami(PagalWorld.com.se).mp3",
         cover:"assets/images/saami.jfif"
     },
-    {
-        title:"Teri Ankho 2",
-        artist:"Geershati Saxena",
-        src:"assets/songs/Teri Ankho 2.mp3",
-        cover:"assets/images/ChatGPT Image Aug 13, 2025, 01_35_45 PM.png"
-    },
+    
     {
         title:"Darkhaast",
         artist:"Mithoon, Arijit Singh, Sunidhi Chauhan",
@@ -1027,18 +1007,7 @@ const songs = [
         src: "assets/songs/Qayde.mp3",
         cover: "assets/images/Qayde.jpg"
     },
-    {
-        title: "Qayde Se (My Version)",
-        artist: "Geershati Saxena",
-        src: "assets/songs/Dil jala ke muskurane ki jo aadat hui ha (1).mp3",
-        cover: "assets/images/gone.jpg"
-    },
-    {
-        title: "Qayde Se (My Version-2)",
-        artist: "Geershati Saxena",
-        src: "assets/songs/Dil jala ke muskurane ki jo aadat hui ha.mp3",
-        cover: "assets/images/gtwo.jpg"
-    },
+   
     {
         title: "Haule Haule",
         artist: "Salim-Sulaiman, Sukhwinder Singh",
