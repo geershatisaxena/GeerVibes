@@ -1531,6 +1531,39 @@ const songs = [
         src:"assets/songs/Yeh Dil Deewana (PenduJatt.Com.Se).mp3",
         cover:"assets/images/dildiwana.jpg"
     },
+    {
+        title:"Main Hoon Na",
+        artist:"Sonu Nigam, Shreya Ghoshal",
+        src:"assets/songs/Main Hoon Na Sonu Nigam 128 Kbps.mp3",
+        cover:"assets/images/main.jpg"
+    },
+     {
+        title:"Main Hoon Na Sad Version",
+        artist:"Abhijeet",
+        src:"assets/songs/Main Hoon Na Sad Abhijeet 128 Kbps.mp3",
+        cover:"assets/images/sad.jpg"
+    },
+     {
+        title:"Gori Gori ",
+        artist:"Annu Malik, KK, Shreya Ghoshal, Sunidhi Chauhan,Abhijeet",
+        src:"assets/songs/Gori Gori Gori Gori Main Hoon Na 128 Kbps.mp3",
+        cover:"assets/images/gori.jpg"
+    },
+    {
+        title:"Chunari Chunari",
+        artist:"Abhijeet,Anuradha Sriram",
+        src:"assets/songs/Chunari Chunari [128 Kbps]-(SongsPk.com.se).mp3",
+        cover:"assets/images/chunari.jpg"
+    },
+    {
+        title:"Hori Re Rasiya",
+        artist:"Maithili Thakur, Seedhe Maut, Ravi Kishan, Mahan",
+        src:"assets/songs/Holi Re Rasiya - Maithili Thakur 128 Kbps.mp3",
+        cover:"assets/images/hori.jpg"
+    },
+
+    
+
 
 
 ];
