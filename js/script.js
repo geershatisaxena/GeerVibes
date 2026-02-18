@@ -1522,13 +1522,13 @@ const songs = [
     {
         title:"Jaaneman Do You Know",
         artist:"Shaan, Shreya Ghoshal",
-        src:"assets/songs/Do U Know Remix Housefull 2 128 Kbps.mp3",
+        src:"assets/songs/Do U Know (PenduJatt.Com.Se).mp3",
         cover:"assets/images/know.jpg"
     },
     {
         title:"Ye Dil Diwana",
         artist:"Sonu Nigam",
-        src:"assets/songs/Yeh Dil Deewana Sonu Nigam 128 Kbps.mp3",
+        src:"assets/songs/Yeh Dil Deewana (PenduJatt.Com.Se).mp3",
         cover:"assets/images/dildiwana.jpg"
     },
 
