@@ -1561,6 +1561,24 @@ const songs = [
         src:"assets/songs/Holi Re Rasiya - Maithili Thakur 128 Kbps.mp3",
         cover:"assets/images/hori.jpg"
     },
+    {
+        title:"Ajab Si",
+        artist:"Vishal-Shekhar, KK",
+        src:"assets/songs/Ajab Si Om Shanti Om 128 Kbps.mp3",
+        cover:"assets/images/ajab.jpg"
+    },
+    {
+        title:"Dhoom Taana",
+        artist:"Abhijeet, Shreya Ghoshal",
+        src:"assets/songs/Dhoom Taana Om Shanti Om 128 Kbps.mp3",
+        cover:"assets/images/dhoomtana.jpg"
+    },
+     {
+        title:"Tumhe Jo Maine Dekha",
+        artist:"Abhijeet, Shreya Ghoshal",
+        src:"assets/songs/Tumhe Jo Maine Dekha Main Hoon Na 128 Kbps.mp3",
+        cover:"assets/images/tumhe.jpg"
+    },
 
     
 
