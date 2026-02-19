@@ -1579,6 +1579,30 @@ const songs = [
         src:"assets/songs/Tumhe Jo Maine Dekha Main Hoon Na 128 Kbps.mp3",
         cover:"assets/images/tumhe.jpg"
     },
+     {
+        title:"Aaj Unse Kehna Hai Hame",
+        artist:"Aishwarya Majmudar, Palak Muchhal, Shaan",
+        src:"assets/songs/Aaj Unse Kehna Hai Prem Ratan Dhan Payo 128 Kbps.mp3",
+        cover:"assets/images/kehna.jpg"
+    },
+     {
+        title:"Aaj Unse Milna Hai Hame",
+        artist:"Shaan",
+        src:"assets/songs/Aaj Unse Milna Hai Prem Ratan Dhan Payo 128 Kbps.mp3",
+        cover:"assets/images/milna.jpg"
+    },
+     {
+        title:"Bum Bum Bole",
+        artist:"Shaan, Aamir Khan",
+        src:"assets/songs/Bum Bum Bole [128 Kbps]-(SongsPk.com.se).mp3",
+        cover:"assets/images/bum.jpg"
+    },
+    {
+        title:"Apna Har Din Aise Jiyo",
+        artist:"Shaan, Anoushka Manchanda",
+        src:"assets/songs/Golmaal_3_-_Apna_Har_Din_Shaan_Anushka_Manchanda_(mp3.pm).mp3",
+        cover:"assets/images/har.jpg"
+    },
 
     
 
