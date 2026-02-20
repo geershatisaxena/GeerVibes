@@ -1603,7 +1603,24 @@ const songs = [
         src:"assets/songs/Golmaal_3_-_Apna_Har_Din_Shaan_Anushka_Manchanda_(mp3.pm).mp3",
         cover:"assets/images/har.jpg"
     },
-
+    {
+        title:"Tere Naina Bade Kaatil",
+        artist:"Shaan, Shreya Ghoshal",
+        src:"assets/songs/Tere-Naina-Bade-Katil.mp3",
+        cover:"assets/images/nayna.jpg"
+    },
+    {
+        title:"Dil Leke Dard E Dil",
+        artist:"Shaan, Shreya Ghoshal",
+        src:"assets/songs/Dil Leke Dard E Dil De Gaye(KoshalWorld.Com).mp3",
+        cover:"assets/images/dileke.jpg"
+    },
+    {
+        title:"Pathaan BGM",
+        artist:"Vishal - Shekhar",
+        src:"assets/songs/Pathaans Theme Pathaan 128 Kbps.mp3",
+        cover:"assets/images/jhoome.jpg"
+    },
     
 
 
