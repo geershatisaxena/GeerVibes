@@ -74,7 +74,7 @@ html {
 }
 
 .progress {
-    background: linear-gradient(90deg, #ff0101, #f70c6a);
+    background: linear-gradient(90deg, #000000, #914664);
     border-radius: 10px;
     height: 100%;
     width: 0%;

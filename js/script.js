@@ -1621,6 +1621,12 @@ const songs = [
         src:"assets/songs/Pathaans Theme Pathaan 128 Kbps.mp3",
         cover:"assets/images/jhoome.jpg"
     },
+    {
+        title:"Main Hoon Don",
+        artist:"Shaan",
+        src:"assets/songs/Main Hoon Don (Full Song) Film - Don- The Chase Begins Again.mp3",
+        cover:"assets/images/don.jpg"
+    },
     
 
 
