@@ -1627,6 +1627,12 @@ const songs = [
         src:"assets/songs/Main Hoon Don (Full Song) Film - Don- The Chase Begins Again.mp3",
         cover:"assets/images/don.jpg"
     },
+     {
+        title:"FA9LA",
+        artist:"Daffy, Flipperachi",
+        src:"assets/songs/baloch.mp3",
+        cover:"assets/images/baloch.jpg"
+    },
     
 
 
