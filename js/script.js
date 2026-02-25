@@ -1638,11 +1638,18 @@ const songs = [
         artist:"Ankit Tiwari",
         src:"assets/songs/Sunn Raha Hai Na Tu Aashiqui 2 Full Song With Lyrics  Aditya Roy Kapur, Shraddha Kapoor.mp3",
         cover:"assets/images/sun.jpg"
-    },  {
+    }, 
+     {
         title:"Main Phir Bhi Tumko Chahunga",
         artist:"Arijit Singh, Shasha Tirupati",
         src:"assets/songs/Phir Bhi Tumko Chaahunga  Arijit Singh  Arjun Kapoor, Shraddha Kapoor  Mithoon, Manoj Muntashir.mp3",
         cover:"assets/images/chahunga.jpg"
+    },
+     {
+        title:"Halka Halka Suroor Hai",
+        artist:"Sunidhi Chauhan,Divya Kumar",
+        src:"assets/songs/Halka Halka (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/Halka.jpg"
     },
 
 
