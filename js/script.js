@@ -1651,6 +1651,20 @@ const songs = [
         src:"assets/songs/Halka Halka (PenduJatt.Com.Se).mp3",
         cover:"assets/images/Halka.jpg"
     },
+      {
+        title:"Hamari Adhuri Kanhani",
+        artist:"Arjit Singh",
+        src:"assets/songs/Hamari Adhuri Kahani-(Mr-Jat.in).mp3",
+        cover:"assets/images/adhuri.jpg"
+    },
+     {
+        title:"Ha Hasi Ban Gaye",
+        artist:"Ami Mishra",
+        src:"assets/songs/Hasi Ban Gaye-(SambalpuriStar.In).mp3",
+        cover:"assets/images/adhuri.jpg"
+    },
+
+
 
 
 
