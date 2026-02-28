@@ -1657,12 +1657,33 @@ const songs = [
         src:"assets/songs/Hamari Adhuri Kahani-(Mr-Jat.in).mp3",
         cover:"assets/images/adhuri.jpg"
     },
-     {
+    {
         title:"Ha Hasi Ban Gaye",
         artist:"Ami Mishra",
         src:"assets/songs/Hasi Ban Gaye-(SambalpuriStar.In).mp3",
         cover:"assets/images/adhuri.jpg"
     },
+    {
+        title:"Malang",
+        artist:"Siddharth Mahadevan, Shilpa Rao",
+        src:"assets/songs/Malang Dhoom 3 128 Kbps.mp3",
+        cover:"assets/images/dhoom.jpg"
+    },
+    {
+        title:"Tu Hi Junoon ",
+        artist:"Mohit Chauhan",
+        src:"assets/songs/Tu Hi Junoon Dhoom 3 128 Kbps.mp3",
+        cover:"assets/images/dhoom.jpg"
+    },
+    {
+        title:"Let's Rock Now Sohniye ",
+        artist:"Shaan , Tulsi Kumar",
+        src:"assets/songs/Lets Rock Soniye Bhool Bhulaiyaa 128 Kbps.mp3",
+        cover:"assets/images/rock.jpg"
+    },
+    
+
+
 
 
 
