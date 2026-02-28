@@ -1182,12 +1182,7 @@ const songs = [
         src:"assets/songs/Ishq Jalakar - Karvaan  Dhurandhar  Ranveer Singh, Shashwat Sachdev, Aditya Dhar.mp3",
         cover:"assets/images/jalakar.jpg"
     },
-    {
-        title:"Chaudhary Remake",
-        artist:"Amit Trivedi, Mame Khan, Jubin Nautiyal, Yohani",
-        src:"assets/songs/Chaudhary.mp3",
-        cover:"assets/images/chj.jpg"
-    },
+   
     {
         title:"Move - Ye Ishq Ishq Hai",
         artist:"Reble, Sonu Nigam, Shashwat Sachdev",
@@ -1205,6 +1200,11 @@ const songs = [
         artist:"Hanumankind, Jasmine Sandlas, Sudhir Yaduvanshi, Shashwat Sachdev, Muhammad Sadiq, Ranjit Kaur",
         src:"assets/songs/Title Track Dhurandhar 128 Kbps.mp3",
         cover:"assets/images/dhurandhar.jpg"
+    }, {
+        title:"Gehra Hua",
+        artist:"Arijit Singh, Armaan Khan",
+        src:"assets/songs/Gehra Hua Dhurandhar 128 Kbps.mp3",
+        cover:"assets/images/gehra].jpg"
     },
    {
         title:"Shararat",
@@ -1230,11 +1230,12 @@ const songs = [
         src:"assets/songs/Jaan Ban Gaye (PenduJatt.Com.Se).mp3",
         cover:"assets/images/bangaye.jpg"
     },
+    
      {
-        title:"Gehra Hua",
-        artist:"Arijit Singh, Armaan Khan",
-        src:"assets/songs/Gehra Hua Dhurandhar 128 Kbps.mp3",
-        cover:"assets/images/gehra].jpg"
+        title:"Chaudhary Remake",
+        artist:"Amit Trivedi, Mame Khan, Jubin Nautiyal, Yohani",
+        src:"assets/songs/Chaudhary.mp3",
+        cover:"assets/images/chj.jpg"
     },
     {
         title:"Tere Sang Kaati Raatein",
