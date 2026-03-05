@@ -1682,6 +1682,20 @@ const songs = [
         src:"assets/songs/Lets Rock Soniye Bhool Bhulaiyaa 128 Kbps.mp3",
         cover:"assets/images/rock.jpg"
     },
+       {
+        title:"Barsaat Ki Dhun",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Barsaat Ki Dhun-(Mr-Jat.in).mp3",
+        cover:"assets/images/barsaat.jpg"
+    },
+     {
+        title:"Pehli Barish Meiin",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Pehli Baarish Mein Jubin Nautiyal 128 Kbps.mp3",
+        cover:"assets/images/pehli.jpg"
+    },
+
+    
     
 
 
