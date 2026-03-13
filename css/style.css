@@ -94,7 +94,8 @@ html {
     transform: translate(0, -50%) scale(0);
     transition: transform 0.2s ease;
     box-shadow: 0 0 10px var(--primary-color);
-}near-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+near-gradient 135deg, var(--primary-color), var(--secondary-color));
     --gradient-accent: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
     
     /* Animation */

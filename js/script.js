@@ -1689,10 +1689,22 @@ const songs = [
         cover:"assets/images/barsaat.jpg"
     },
      {
-        title:"Pehli Barish Meiin",
+        title:"Pehli Barish Mein",
         artist:"Jubin Nautiyal",
         src:"assets/songs/Pehli Baarish Mein Jubin Nautiyal 128 Kbps.mp3",
         cover:"assets/images/pehli.jpg"
+    },
+    {
+        title:"Jaane Kyu Log Pyaar Karta Hain",
+        artist:"Alka Yagnik, Udit Narayan",
+        src:"assets/songs/Jaane Kyon Log Pyar Dil Chahta Hai 128 Kbps.mp3",
+        cover:"assets/images/koikahe.jpg"
+    },
+    {
+        title:"Woh Ladki Hai Kahan",
+        artist:"Kavita Subramaniam, Shaan",
+        src:"assets/songs/Woh Ladki Hai Kahan Dil Chahta Hai 128 Kbps.mp3",
+        cover:"assets/images/koikahe.jpg"
     },
 
     
