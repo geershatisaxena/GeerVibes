@@ -1706,17 +1706,27 @@ const songs = [
         src:"assets/songs/Woh Ladki Hai Kahan Dil Chahta Hai 128 Kbps.mp3",
         cover:"assets/images/koikahe.jpg"
     },
+     {
+        title:"Tera Hone Laga Hoon",
+        artist:"Alisha Chinoy, Atif Aslam",
+        src:"assets/songs/Tera Hone Laga Hoon-(Mr-Jat.in).mp3",
+        cover:"assets/images/hone.jpg"
+    },
+      {
+        title:"Chitthi",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Chitthi Rocky Shiv 128 Kbps.mp3",
+        cover:"assets/images/chitthi.jpg"
+    },
+      {
+        title:"Ajao Meri Tamanna",
+        artist:"Javed Ali",
+        src:"assets/songs/Aa Jao Meri Tamanna (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/tamanna.jpg"
+    },
 
     
-    
-
-
-
-
-
-
-
-];
+    ];
 
 // DOM Elements
 const audio = document.getElementById('audio');
