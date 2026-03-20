@@ -2775,7 +2775,7 @@ const Search = {
       state.filteredList = base.filter(song =>
         song.title.toLowerCase().includes(state.searchQuery) ||
         song.artist.toLowerCase().includes(state.searchQuery) ||
-        song.album.toLowerCase().includes(state.searchQuery)
+        (song.album || '').toLowerCase().includes(state.searchQuery)
       );
     }
 
