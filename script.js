@@ -719,7 +719,9 @@ const SONGS = [
         title: "Mahiye Jinna Sona",
         artist: "Darshan Raval",
         src: "assets/songs/Sona.mp3",
-        cover: "assets/images/Sona.jpg"
+        cover: "assets/images/Sona.jpg",
+        coverThumb: "assets/images/Sona.jpg",
+        faved: false
     },
 {id:85,
         title: "Tenu Le ke Mai Jawanga",
@@ -1244,11 +1246,13 @@ const SONGS = [
         coverThumb: "assets/images/Satranga.jpg",
         faved: false
     },
-    {
+    {id:147,
         title: "Ghoomar",
         artist: "Sanjay Leela Bhansali ,Shreya Ghoshal, Swaroop Khan",
         src: "assets/songs/Ghoomar (PenduJatt.Com.Se).mp3",
-        cover: "assets/images/ghoomar.jpeg"
+        cover: "assets/images/ghoomar.jpeg",
+        coverThumb: "assets/images/ghoomar.jpeg",
+        faved: false
     },
     {id:147,
         title: "Pardesiya",
