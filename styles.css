@@ -194,18 +194,11 @@ img {
   font-size: 1.3rem;
   color: var(--text-primary);
   letter-spacing: -0.5px;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
 }
 
 .logo__text em {
   font-style: normal;
   color: var(--accent);
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  white-space: nowrap;
 }
 
 /* Search bar */
@@ -624,8 +617,7 @@ img {
   align-items: center;
   gap: 22px;
   box-shadow: var(--shadow-lg);
-  position: sticky;
-  top: calc(var(--navbar-h) + 16px);
+  position: relative;
   overflow: hidden;
   transition: background 0.35s var(--ease), border-color 0.35s var(--ease);
 }
@@ -1296,20 +1288,6 @@ img {
   /* Show hamburger */
   .hamburger { display: flex; }
 
-  /* Navbar tighter on mobile */
-  .navbar {
-    padding: 0 12px;
-    gap: 10px;
-  }
-
-  /* Logo: show icon + brand name only, hide subtitle ems */
-  .logo__text {
-    font-size: 1.1rem;
-  }
-  .logo__text em {
-    display: none;
-  }
-
   /* Sidebar slides in from left */
   .sidebar {
     transform: translateX(-100%);
@@ -1325,9 +1303,8 @@ img {
   .main-content {
     margin-left: 0;
     flex-direction: column;
-    padding: 16px 12px;
-    padding-bottom: calc(var(--mini-player-h) + 24px);
-    gap: 16px;
+    padding: 20px 16px;
+    padding-bottom: calc(var(--mini-player-h) + 20px);
   }
 
   /* Player card full width */
@@ -1335,111 +1312,32 @@ img {
     flex: 0 0 auto;
     max-width: 100%;
     width: 100%;
-    padding: 24px 16px 20px;
-    gap: 16px;
+    padding: 28px 20px 20px;
   }
 
-  /* Album art scaled for mobile */
   .album-art-wrapper,
-  .album-art { width: 190px; height: 190px; }
+  .album-art { width: 200px; height: 200px; }
   .album-art-ring { inset: -10px; }
   .album-art-ring--2 { inset: -20px; }
-
-  /* Song title smaller on mobile */
-  .song-info__title {
-    font-size: 1.15rem;
-  }
-  .song-info__artist {
-    font-size: 0.85rem;
-  }
-
-  /* Controls tighter on mobile */
-  .ctrl-btn--play {
-    width: 54px;
-    height: 54px;
-    font-size: 18px;
-  }
-  .controls {
-    gap: 10px;
-  }
-
-  /* Volume label hidden on small screens to save space */
-  .volume-label {
-    display: none;
-  }
 
   /* Playlist section full width */
   .main-playlist-section {
     width: 100%;
     max-height: none;
     flex: 0 0 auto;
-    padding: 20px 14px;
-    border-radius: var(--radius-lg);
-  }
-
-  /* Playlist items tighter */
-  .main-playlist-item {
-    gap: 10px;
-    padding: 9px 10px;
-  }
-  .mp-art {
-    width: 40px;
-    height: 40px;
-  }
-  .mp-duration {
-    display: none;
-  }
-  .mp-fav-btn {
-    opacity: 1;
   }
 
   /* Show mini player */
   .mini-player { display: flex; }
 
-  /* Search bar: show but compact */
-  .navbar__center {
-    display: block;
-    max-width: none;
-    flex: 1;
-  }
-  .search-bar__input {
-    height: 36px;
-    font-size: 0.8rem;
-    padding: 0 36px 0 36px;
-  }
-
-  /* Hide user avatar on small screens */
-  .user-avatar {
-    display: none;
-  }
+  /* Hide search bar on very small screens */
+  .navbar__center { display: none; }
 }
 
-@media (max-width: 480px) {
-  .navbar { padding: 0 10px; gap: 8px; }
-
-  /* Hide search on very small phones to avoid overflow */
-  .navbar__center { display: none; }
-
-  .player-card { padding: 20px 14px 18px; }
-
-  .album-art-wrapper,
-  .album-art { width: 165px; height: 165px; }
-
-  .song-info__title { font-size: 1rem; }
-
-  .ctrl-btn--play { width: 50px; height: 50px; font-size: 16px; }
-  .ctrl-btn { width: 36px; height: 36px; font-size: 14px; }
-  .ctrl-btn--sm { width: 30px; height: 30px; font-size: 12px; }
-
-  .controls__primary { gap: 8px; }
-  .controls__secondary { gap: 14px; }
-
-  .main-playlist-section { padding: 16px 10px; }
-  .main-playlist-item { gap: 8px; padding: 8px 8px; }
-  .mp-art { width: 36px; height: 36px; }
-  .mp-title { font-size: 0.82rem; }
-  .mp-artist { font-size: 0.72rem; }
-  .mp-num { display: none; }
+@media (max-width: 420px) {
+  .logo__text { font-size: 1.1rem; }
+  .player-card { padding: 20px 16px; }
+  .album-art-wrapper, .album-art { width: 170px; height: 170px; }
 }
 
 /* ============================================================

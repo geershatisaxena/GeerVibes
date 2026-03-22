@@ -2288,6 +2288,22 @@ const SONGS = [
         coverThumb: "assets/images/tamanna.jpg",
         faved: false
     },
+    {id:274,
+        title:"Bedardi Se Pyar Ka",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Bedardi Se Pyaar Ka Jubin Nautiyal 128 Kbps.mp3",
+        cover:"assets/images/bedardi.jpg",
+        coverThumb: "assets/images/bedardi.jpg",
+        faved: false
+    },
+    {id:275,
+        title:"Dil Pe Zakhm Khate Hain",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Dil Pe Zakhm Jubin Nautiyal 128 Kbps.mp3",
+        cover:"assets/images/zakhm.jpg",
+        coverThumb: "assets/images/zakhm.jpg",
+        faved: false
+    },
 ];
 
 /* ============================================================
