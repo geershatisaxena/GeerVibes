@@ -1,5 +1,5 @@
 /* ============================================================
-   VIBEFLOW — script.js
+   GeerVibes — script.js
    Premium music streaming app — clean, modular, fully commented
    ============================================================ */
 
@@ -719,9 +719,7 @@ const SONGS = [
         title: "Mahiye Jinna Sona",
         artist: "Darshan Raval",
         src: "assets/songs/Sona.mp3",
-        cover: "assets/images/Sona.jpg",
-        coverThumb: "assets/images/Sona.jpg",
-        faved: false
+        cover: "assets/images/Sona.jpg"
     },
 {id:85,
         title: "Tenu Le ke Mai Jawanga",
@@ -1246,13 +1244,11 @@ const SONGS = [
         coverThumb: "assets/images/Satranga.jpg",
         faved: false
     },
-    {id:147,
+    {
         title: "Ghoomar",
         artist: "Sanjay Leela Bhansali ,Shreya Ghoshal, Swaroop Khan",
         src: "assets/songs/Ghoomar (PenduJatt.Com.Se).mp3",
-        cover: "assets/images/ghoomar.jpeg",
-        coverThumb: "assets/images/ghoomar.jpeg",
-        faved: false
+        cover: "assets/images/ghoomar.jpeg"
     },
     {id:147,
         title: "Pardesiya",
@@ -2292,23 +2288,6 @@ const SONGS = [
         coverThumb: "assets/images/tamanna.jpg",
         faved: false
     },
-      {id:274,
-        title:"Bedardi Se Pyaar Ka",
-        artist:"Jubin Nautiyal",
-        src:"assets/songs/Bedardi Se Pyaar Ka Jubin Nautiyal 128 Kbps.mp3",
-        cover:"assets/images/bedardi.jpg",
-        coverThumb: "assets/images/bedardi.jpg",
-        faved: false
-    },
-    {
-        id:275,
-        title:"Dil Pe Zakhm Khaate HAin",
-        artist:"Jubin Nautiyal",
-        src:"assets/songs/Dil Pe Zakhm Jubin Nautiyal 128 Kbps.mp3",
-        cover:"assets/images/zakhm.jpg",
-        coverThumb: "assets/images/zakhm.jpg",
-        faved: false
-    }
 ];
 
 /* ============================================================
@@ -2402,7 +2381,7 @@ const DOM = {
    ============================================================ */
 const ThemeManager = {
   init() {
-    const saved = localStorage.getItem('vibeflow-theme') || 'dark';
+    const saved = localStorage.getItem('GeerVibes-theme') || 'dark';
     this.apply(saved);
   },
 
@@ -2411,7 +2390,7 @@ const ThemeManager = {
     DOM.themeIcon.className = theme === 'dark'
       ? 'fa-solid fa-moon'
       : 'fa-solid fa-sun';
-    localStorage.setItem('vibeflow-theme', theme);
+    localStorage.setItem('GeerVibes-theme', theme);
   },
 
   toggle() {
@@ -2576,7 +2555,17 @@ const UI = {
     DOM.miniArt.alt = song.title;
 
     // Page title
-    document.title = `${song.title} — VibeFlow`;
+    document.title = `${song.title} — ${song.artist}`;
+
+    // Dynamic favicon: use song cover as browser tab icon
+    let favicon = document.querySelector("link[rel='icon']");
+    if (!favicon) {
+      favicon = document.createElement('link');
+      favicon.rel = 'icon';
+      document.head.appendChild(favicon);
+    }
+    favicon.type = 'image/png';
+    favicon.href = song.cover;
   },
 
   /* Sync play/pause button states */
@@ -3142,7 +3131,7 @@ function init() {
   DOM.volumeSlider.addEventListener('input', updateSliderFill);
   updateSliderFill();
 
-  console.log('%c🎵 VibeFlow loaded!', 'color: #00ff9d; font-weight: bold; font-size: 16px;');
+  console.log('%c🎵 GeerVibes loaded!', 'color: #00ff9d; font-weight: bold; font-size: 16px;');
   console.log('⌨️  Shortcuts: Space=play/pause | ←→=prev/next | ↑↓=volume | M=mute | S=shuffle | R=repeat');
 }
 
