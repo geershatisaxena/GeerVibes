@@ -397,48 +397,48 @@ const SONGS = [
         title:"Daastaan-E-Om Shanti Om ",
         artist:"Shaan",
         src:"assets/songs/Dastaan E Om Shanti Om Shaan 128 Kbps.mp3",
-        cover:"assets/images/deom.jfif",
-        coverThumb:"assets/images/deom.jfif",
+        cover:"assets/images/deom.jpg",
+        coverThumb:"assets/images/deom.jpg",
         faved: false
     },
     {id:48,
         title:"Shape of You",
         artist:"Ed Sheeran",
         src:"assets/songs/Ed_Sheeran_-_Shape_of_You_Offblogmedia.com.mp3",
-        cover:"assets/images/ed sheeran.jfif",
-        coverThumb:"assets/images/ed sheeran.jfif",
+        cover:"assets/images/ed sheeran.jpg",
+        coverThumb:"assets/images/ed sheeran.jpg",
         faved: false
     },
     {id:49,
         title:"Jenne Laga Hoon",
         artist:"Sachin-Jigar, Shreya Ghoshal, Atif Aslam",
         src:"assets/songs/Jeene Laga hoo.mp3",
-        cover:"assets/images/jeene laga.jfif",
-        coverThumb:"assets/images/jeene laga.jfif",
+        cover:"assets/images/jeene laga hoon.jpg",
+        coverThumb:"assets/images/jeene laga hoon.jpg",
         faved: false
     },
     {id:50,
         title:"Meri Zindagi Hai Tu",
         artist:"Jubin Nautiyal, Neeti Mohan",
         src:"assets/songs/Meri Zindagi.mp3",
-        cover:"assets/images/meri zindagi.jfif",
-        coverThumb:"assets/images/meri zindagi.jfif",
+        cover:"assets/images/zindagi.jpg",
+        coverThumb:"assets/images/zindagi.jpg",
         faved: false
     },
     {id:51,
         title:"G.O.A.T",
         artist:"Diljit Dosanjh",
         src:"assets/songs/G.O.A.T - Diljit Dosanjh.mp3",
-        cover:"assets/images/dd.jfif",
-        coverThumb:"assets/images/dd.jfif",
+        cover:"assets/images/goat.jpg",
+        coverThumb:"assets/images/goat.jpg",
         faved: false
     },
     {id:52,
         title:"Perfect",
         artist:"Ed Sheeran",
         src:"assets/songs/Perfect-(Mr-Jat.in).mp3",
-        cover:"assets/images/ed sheeran.jfif",
-        coverThumb:"assets/images/ed sheeran.jfif",
+        cover:"assets/images/ed sheeran.jpg",
+        coverThumb:"assets/images/ed sheeran.jpg",
         faved: false
     },
    
@@ -498,8 +498,8 @@ const SONGS = [
         title:"Tere Vaste",
         artist:"Sachin-Jigar, Varun Jain, Shadab Faridi",
         src:"assets/songs/Tere Vaaste Zara Hatke Zara Bachke 128 Kbps.mp3",
-        cover:"assets/images/tere vaste.jfif",
-        coverThumb:"assets/images/tere vaste.jfif",
+        cover:"assets/images/tere vaste.jpg",
+        coverThumb:"assets/images/tere vaste.jpg",
         faved: false
     },
     {
@@ -507,32 +507,32 @@ const SONGS = [
         title:"Tumse Kiran Dhoop Ki",
         artist:"Sachin-Jigar, Varun Jain, Shadab Faridi",
         src:"assets/songs/Tumse Kiran Dhoop Ki [128 Kbps]-(SongsPk.com.se).mp3",
-        cover:"assets/images/tmse.jfif",
-        coverThumb:"assets/images/tmse.jfif",
+        cover:"assets/images/tmse.jpg",
+        coverThumb:"assets/images/tmse.jpg",
         faved: false
     },
     {id:61,
         title:"Do Dhaari Talwar",
         artist:"Sohail Sen, Shweta Pandit, Shahid Mallya",
         src:"assets/songs/Do Dhaari Talwaar Mere Brother Ki Dulhan 128 Kbps.mp3",
-        cover:"assets/images/talwar.jfif",
-        coverThumb:"assets/images/talwar.jfif",
+        cover:"assets/images/talwar.jpg",
+        coverThumb:"assets/images/talwar.jpg",
         faved: false
     },
     {id:62,
         title:"Bulleya",
         artist:"Papon",
         src:"assets/songs/Bulleya Sultan 128 Kbps.mp3",
-        cover:"assets/images/bulleya.jfif",
-        coverThumb:"assets/images/bulleya.jfif",
+        cover:"assets/images/bulleya.jpg",
+        coverThumb:"assets/images/bulleya.jpg",
         faved: false
     },
     {id:63,
         title:"Manzoor Hai",
         artist:"Salim-Sulaiman, Armaan Malik",
         src:"assets/songs/Manzoor Hai - Armaan Malik [128 Kbps]-(SongsPk.com.se).mp3",
-        cover:"assets/images/manzoor.jfif",
-        coverThumb:"assets/images/manzoor.jfif",
+        cover:"assets/images/manzoor.jpg",
+        coverThumb:"assets/images/manzoor.jpg",
         faved: false
     },
     {
@@ -540,8 +540,8 @@ const SONGS = [
         title:"Jaan Le Gayi",
         artist:"Salim-Sulaiman, Vishal Dadlani, Sonu Nigam",
         src:"assets/songs/Jaan Le Gayi(KoshalWorld.Com).mp3",
-        cover:"assets/images/jaan.jfif",
-        coverThumb:"assets/images/jaan.jfif",
+        cover:"assets/images/jaan.jpg",
+        coverThumb:"assets/images/jaan.jpg",
         faved: false
     },
     {
@@ -549,8 +549,8 @@ const SONGS = [
         title:"Murli Ki Taano Si",
         artist:"Shaan",
         src:"assets/songs/Murli Ki Taanon Si Prem Ratan Dhan Payo 128 Kbps.mp3",
-        cover:"assets/images/shaan.jfif",
-        coverThumb:"assets/images/shaan.jfif",
+        cover:"assets/images/murli.jpg",
+        coverThumb:"assets/images/murli.jpg",
         faved: false
     },
     {
@@ -558,8 +558,8 @@ const SONGS = [
         title: "Hind Ke Sitara",
         artist: "Manoj Tiwari",
         src: "assets/songs/Hind Ke Sitara Panchayat Season 3 128 Kbps.mp3",
-        cover: "assets/images/aasma rootha.jfif",
-        coverThumb: "assets/images/aasma rootha.jfif",
+        cover: "assets/images/asma.jpg",
+        coverThumb: "assets/images/asma.jpg",
         faved: false
     },
      {
@@ -567,8 +567,8 @@ const SONGS = [
         title: "Chaar Kadam",
         artist: "Shreya Ghoshal, Shaan",
         src: "assets/songs/Chaar Kadam Pk 128 Kbps.mp3",
-        cover: "assets/images/chaar.jfif",
-        coverThumb: "assets/images/chaar.jfif",
+        cover: "assets/images/chaar.jpg",
+        coverThumb: "assets/images/chaar.jpg",
         faved: false
     },
     {
@@ -576,8 +576,8 @@ const SONGS = [
         title: "Dil Diyan Gallan",
         artist: "Atif Aslam",
         src: "assets/songs/Dil Diyan Gallan Tiger Zinda Hai 128 Kbps.mp3",
-        cover: "assets/images/dil.jfif",
-        coverThumb: "assets/images/dil.jfif",
+        cover: "assets/images/dil.jpg",
+        coverThumb: "assets/images/dil.jpg",
         faved: false
     },
     {
@@ -585,8 +585,8 @@ const SONGS = [
         title: "Mere Dholna 3.o",
         artist: "Amaal Mallik,Sonu Nigam",
         src: "assets/songs/Mere Dholna 3.0 Sonu Version Bhool Bhulaiyaa 3 128 Kbps.mp3",
-        cover: "assets/images/bb3.jfif",
-        coverThumb: "assets/images/bb3.jfif",
+        cover: "assets/images/bb3.jpg",
+        coverThumb: "assets/images/bb3.jpg",
         faved: false
     },
     {
@@ -594,8 +594,8 @@ const SONGS = [
         title: "Mere Brother Ki Dulhan",
         artist: "Sohail Sen, KK",
         src: "assets/songs/Mere Brother ki dulhan.mp3",
-        cover: "assets/images/mbkd.jfif",
-        coverThumb: "assets/images/mbkd.jfif",
+        cover: "assets/images/mbkd.jpg",
+        coverThumb: "assets/images/mbkd.jpg",
         faved: false
     },
      {
@@ -603,8 +603,8 @@ const SONGS = [
         title: "Srivalli",
         artist: "Javed Ali",
         src: "assets/songs/srivalli.mp3",
-        cover: "assets/images/srivalli.jfif",
-        coverThumb: "assets/images/srivalli.jfif",
+        cover: "assets/images/srivalli.jpg",
+        coverThumb: "assets/images/srivalli.jpg",
         faved: false
     },
     {
@@ -612,8 +612,8 @@ const SONGS = [
         title: "Blue Eyes",
         artist: "Yo Yo Honey Singh",
         src: "assets/songs/blueeyes.mp3",
-        cover: "assets/images/blueeyes.jfif",
-        coverThumb: "assets/images/blueeyes.jfif",
+        cover: "assets/images/blueeyes.jpg",
+        coverThumb: "assets/images/blueeyes.jpg",
         faved: false
     }, 
     {
@@ -621,8 +621,8 @@ const SONGS = [
         title: "Dil Chori",
         artist: "Yo Yo Honey Singh, Simar Kaur, Ishers",
         src: "assets/songs/dilchori.mp3",
-        cover: "assets/images/dilchori.jfif",
-        coverThumb: "assets/images/dilchori.jfif",
+        cover: "assets/images/dilchori.jpg",
+        coverThumb: "assets/images/dilchori.jpg",
         faved: false
     },
       {
@@ -630,8 +630,8 @@ const SONGS = [
         title: "Bewafa Tera Yun Muskurana",
         artist: "Jubin Nautiyal",
         src: "assets/songs/Bewafa Tera Yun Muskurana.mp3",
-        cover: "assets/images/bewafa.jfif",
-        coverThumb: "assets/images/bewafa.jfif",
+        cover: "assets/images/bewafa.jpg",
+        coverThumb: "assets/images/bewafa.jpg",
         faved: false
     },
      {
@@ -639,8 +639,8 @@ const SONGS = [
         title: "Bijlee Bijlee",
         artist: "Hardy Sandhu, Palak Tiwari",
         src: "assets/songs/Bijlee.mp3",
-        cover: "assets/images/bijli.jfif",
-        coverThumb: "assets/images/bijli.jfif",
+        cover: "assets/images/bijli.jpg",
+        coverThumb: "assets/images/bijli.jpg",
         faved: false
     },
    {
@@ -648,8 +648,8 @@ const SONGS = [
         title: "Suit Suit",
         artist: "Guru Randhawa, Arjun",
         src: "assets/songs/suit.mp3",
-        cover: "assets/images/suit.jfif",
-        coverThumb: "assets/images/suit.jfif",
+        cover: "assets/images/suit.jpg",
+        coverThumb: "assets/images/suit.jpg",
         faved: false
     },
     {
@@ -657,8 +657,8 @@ const SONGS = [
         title: "Naach Punjaban",
         artist: "Gippy Grewal, Zahrah S Khan, Tanishk Bagchi, Romy",
         src: "assets/songs/punjaban.mp3",
-        cover: "assets/images/punjaban.jfif",
-        coverThumb: "assets/images/punjaban.jfif",
+        cover: "assets/images/punjaban.jpg",
+        coverThumb: "assets/images/punjaban.jpg",
         faved: false
 
     },
@@ -666,16 +666,17 @@ const SONGS = [
         title: "Titliyan (Pata nahi ji konsa nasha karta hai)",
         artist: "Afsana Khan",
         src: "assets/songs/nasha.mp3",
-        cover: "assets/images/nasha.jfif",
-        coverThumb: "assets/images/nasha.jfif",
+        cover: "assets/images/nasha.jpg",
+        coverThumb: "assets/images/nasha.jpg",
         faved: false
     },
-     {id:79,
+     { 
+        id:79,
         title: "Chennai Express Title Track",
         artist: "Vishal-Shekhar, S. P. Balasubrahmanyam, Jonita Gandhi",
         src: "assets/songs/chen.mp3",
-        cover: "assets/images/ce.jfif",
-        coverThumb: "assets/images/ce.jfif",
+        cover: "assets/images/ce.jpg",
+        coverThumb: "assets/images/ce.jpg",
         faved: false
     },
      {
@@ -683,8 +684,8 @@ const SONGS = [
         title: "Tera Rasta ",
         artist: "Vishal-Shekhar,Amitabh Bhattacharya, Anusha Mani",
         src: "assets/songs/rasta.mp3",
-        cover: "assets/images/rasta.jfif",
-        coverThumb: "assets/images/rasta.jfif",
+        cover: "assets/images/ce.jpg",
+        coverThumb: "assets/images/ce.jpg",
         faved: false
     },
      {
@@ -692,8 +693,8 @@ const SONGS = [
         title: "Teri Meethi Meethi",
         artist: "Jubin Nautiyal, Payal Dev",
         src: "assets/songs/mithi.mp3",
-        cover: "assets/images/mithi.jfif",
-        coverThumb: "assets/images/mithi.jfif",
+        cover: "assets/images/mithi.jpg",
+        coverThumb: "assets/images/mithi.jpg",
         faved: false
     },
     {
@@ -701,8 +702,8 @@ const SONGS = [
         title: "Akelo Chal Padiyo",
         artist: "Sandesh Shandilya, Shradha Mishra",
         src: "assets/songs/Al.mp3",
-        cover: "assets/images/Al.jpg",
-        coverThumb: "assets/images/Al.jpg",
+        cover: "assets/images/Akelo.jpg",
+        coverThumb: "assets/images/Akelo.jpg",
         faved: false
     },
     {
@@ -719,7 +720,8 @@ const SONGS = [
         title: "Mahiye Jinna Sona",
         artist: "Darshan Raval",
         src: "assets/songs/Sona.mp3",
-        cover: "assets/images/Sona.jpg"
+        cover: "assets/images/sona.jpg",
+        coverThumb:"assets/images/sona.jpg"
     },
 {id:85,
         title: "Tenu Le ke Mai Jawanga",
@@ -735,8 +737,8 @@ const SONGS = [
         title: "Aao Milo Chale",
         artist: "Pritam, Shaan,Sultan Khan",
         src: "assets/songs/Amc.mp3",
-        cover: "assets/images/Amc.jpg",
-        coverThumb: "assets/images/Amc.jpg",
+        cover: "assets/images/amc.jpg",
+        coverThumb: "assets/images/amc.jpg",
         faved: false
     },
 {id:87,
@@ -1311,8 +1313,8 @@ const SONGS = [
         title: "Beh Ja",
         artist: "Shaan",
         src: "assets/songs/Beh_Ja_Shaan.mp3",
-        cover: "assets/images/shaan.jfif",
-        coverThumb: "assets/images/shaan.jfif",
+        cover: "assets/images/shaan.jpg",
+        coverThumb: "assets/images/shaan.jpg",
         faved: false
     },
     {id:155,
