@@ -57,12 +57,21 @@ const SONGS = [
         faved: false
     },
     {
-        id:6,
-        title: "Sabse Sundar Sapne Ram",
-        artist: "Dr Kumar Vishwas",
-        src: "assets/songs/सबस सदर सपन रम  Sabse Sundar Sapne Ram  Dr Kumar Vishwas  Full HD Video.mp3",
-        cover: "assets/images/Sundarram.jpg",
-        coverThumb: "assets/images/Sundarram.jpg",
+        
+        title:"Rasputin",
+        artist:"Boney M.",
+        src:"assets/songs/Boney M. - Rasputin (Sopot Festival 1979).mp3",
+        cover:"assets/images/rasputin.jpg",
+        coverThumb:"assets/images/rasputin.jpg",
+        faved: false
+    },
+    {
+        
+        title: "Mere Mehboob Tera ",
+        artist: "Shilpa Rao, Sachet Tandon , Sachin-Jigar ",
+        src: "assets/songs/Mere Mehboob Vicky Vidya Ka Woh Wala Video 128 Kbps.mp3",
+        cover: "assets/images/mehboob.jpg",
+        coverThumb: "assets/images/mehboob.jpg",
         faved: false
     },
     {
