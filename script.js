@@ -1,6 +1,7 @@
 /* ============================================================
    GeerVibes — script.js
    Premium music streaming app — clean, modular, fully commented
+   OPTIMIZED: Low data usage, lazy loading, performance
    ============================================================ */
 
 'use strict';
@@ -2413,6 +2414,31 @@ const DOM = {
   miniProgressFill: document.getElementById('miniProgressFill'),
 };
 
+// OPTIMIZED: Lazy loading image utility
+function loadImageWithLazy(imgElement, src, alt = '') {
+  if (!imgElement) return;
+  
+  imgElement.setAttribute('loading', 'lazy');
+  imgElement.alt = alt;
+  
+  // Use Intersection Observer for better lazy loading
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          imgElement.src = src;
+          observer.unobserve(imgElement);
+        }
+      });
+    }, { rootMargin: '100px' });
+    
+    observer.observe(imgElement);
+  } else {
+    // Fallback
+    imgElement.src = src;
+  }
+}
+
 /* ============================================================
    4. THEME MANAGER
    ============================================================ */
@@ -2440,10 +2466,11 @@ const ThemeManager = {
    5. AUDIO ENGINE
    ============================================================ */
 const AudioEngine = {
-  /* Load and optionally auto-play a song */
+  /* OPTIMIZED: Load with preload='metadata' only */
   load(song, autoPlay = false) {
     state.audioReady = false;
     DOM.audio.src = song.src;
+    DOM.audio.preload = 'metadata'; // OPTIMIZED: Don't preload full song
     DOM.audio.load();
 
     if (autoPlay) {
@@ -2581,15 +2608,15 @@ const UI = {
   updateSongInfo(song) {
     DOM.songTitle.textContent = song.title;
     DOM.songArtist.textContent = song.artist;
-    DOM.songAlbum.textContent = song.album;
-    DOM.albumImg.src = song.cover;
-    DOM.albumImg.alt = `${song.title} - ${song.artist}`;
+    DOM.songAlbum.textContent = song.album || 'Single';
+    
+    // OPTIMIZED: Lazy load album art
+    loadImageWithLazy(DOM.albumImg, song.cover, `${song.title} - ${song.artist}`);
 
     // Mini player
     DOM.miniTitle.textContent = song.title;
     DOM.miniArtist.textContent = song.artist;
-    DOM.miniArt.src = song.coverThumb;
-    DOM.miniArt.alt = song.title;
+    loadImageWithLazy(DOM.miniArt, song.coverThumb, song.title);
 
     // Page title
     document.title = `${song.title} — ${song.artist}`;
@@ -2622,14 +2649,14 @@ const UI = {
     const song = state.filteredList[index];
 
     // Sidebar
-    document.querySelectorAll('#playlistSidebar .playlist-item').forEach((el, i) => {
+    document.querySelectorAll('#playlistSidebar .playlist-item').forEach((el) => {
       const songId = parseInt(el.dataset.songId);
       const isActive = songId === song.id;
       el.classList.toggle('active', isActive);
     });
 
     // Main playlist
-    document.querySelectorAll('#mainPlaylist .main-playlist-item').forEach((el, i) => {
+    document.querySelectorAll('#mainPlaylist .main-playlist-item').forEach((el) => {
       const songId = parseInt(el.dataset.songId);
       const isActive = songId === song.id;
       el.classList.toggle('active', isActive);
@@ -2689,7 +2716,7 @@ const UI = {
     DOM.playlistSidebar.innerHTML = '';
     DOM.playlistCount.textContent = `${SONGS.length} songs`;
 
-    SONGS.forEach((song, i) => {
+    songs.forEach((song, i) => {
       const li = document.createElement('li');
       li.className = 'playlist-item';
       li.dataset.songId = song.id;
@@ -2706,13 +2733,33 @@ const UI = {
           <span class="playing-bar"></span>
           <span class="playing-bar"></span>
         </span>
-        <img src="${song.coverThumb}" alt="${song.title}" class="playlist-item__thumb" loading="lazy" />
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3C/svg%3E" 
+             data-src="${song.coverThumb}" 
+             alt="${song.title}" 
+             class="playlist-item__thumb" 
+             loading="lazy" />
         <div class="playlist-item__info">
-          <div class="playlist-item__title">${song.title}</div>
-          <div class="playlist-item__artist">${song.artist}</div>
+          <div class="playlist-item__title">${escapeHtml(song.title)}</div>
+          <div class="playlist-item__artist">${escapeHtml(song.artist)}</div>
         </div>
         <span class="playlist-item__duration shimmer" data-id="${song.id}"></span>
       `;
+
+      // Lazy load thumbnail
+      const img = li.querySelector('.playlist-item__thumb');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              img.src = img.dataset.src;
+              observer.unobserve(img);
+            }
+          });
+        }, { rootMargin: '100px' });
+        observer.observe(img);
+      } else {
+        img.src = img.dataset.src;
+      }
 
       li.addEventListener('click', () => {
         const idx = state.filteredList.findIndex(s => s.id === song.id);
@@ -2767,16 +2814,36 @@ const UI = {
             <i class="fa-solid fa-play"></i>
           </div>
         </div>
-        <img src="${song.coverThumb}" alt="${song.title}" class="mp-art" loading="lazy" />
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3C/svg%3E" 
+             data-src="${song.coverThumb}" 
+             alt="${song.title}" 
+             class="mp-art" 
+             loading="lazy" />
         <div class="mp-info">
-          <div class="mp-title">${song.title}</div>
-          <div class="mp-artist">${song.artist}</div>
+          <div class="mp-title">${escapeHtml(song.title)}</div>
+          <div class="mp-artist">${escapeHtml(song.artist)}</div>
         </div>
         <span class="mp-duration shimmer" data-id="${song.id}"></span>
         <button class="mp-fav-btn ${song.faved ? 'faved' : ''}" data-id="${song.id}" aria-label="Favourite">
           <i class="fa-${song.faved ? 'solid' : 'regular'} fa-heart"></i>
         </button>
       `;
+
+      // Lazy load thumbnail
+      const img = li.querySelector('.mp-art');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              img.src = img.dataset.src;
+              observer.unobserve(img);
+            }
+          });
+        }, { rootMargin: '100px' });
+        observer.observe(img);
+      } else {
+        img.src = img.dataset.src;
+      }
 
       // Click to play
       li.addEventListener('click', (e) => {
@@ -2807,6 +2874,17 @@ const UI = {
     if (activeSong) UI.highlightActive(state.currentIndex);
   }
 };
+
+// OPTIMIZED: Escape HTML to prevent XSS
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/[&<>]/g, function(m) {
+    if (m === '&') return '&amp;';
+    if (m === '<') return '&lt;';
+    if (m === '>') return '&gt;';
+    return m;
+  });
+}
 
 /* ============================================================
    8. SEARCH MANAGER
@@ -3168,7 +3246,7 @@ function init() {
   DOM.volumeSlider.addEventListener('input', updateSliderFill);
   updateSliderFill();
 
-  console.log('%c🎵 GeerVibes loaded!', 'color: #00ff9d; font-weight: bold; font-size: 16px;');
+  console.log('%c🎵 GeerVibes loaded!', 'color: #ff9500; font-weight: bold; font-size: 16px;');
   console.log('⌨️  Shortcuts: Space=play/pause | ←→=prev/next | ↑↓=volume | M=mute | S=shuffle | R=repeat');
 }
 

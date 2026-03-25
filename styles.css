@@ -15,7 +15,7 @@
   /* --- Sizing --- */
   --navbar-h: 68px;
   --sidebar-w: 260px;
-  --mini-player-h: 72px;
+  --mini-player-h: 80px;
   --radius-sm: 10px;
   --radius-md: 16px;
   --radius-lg: 24px;
@@ -29,11 +29,11 @@
   --bg-surface:   #13131a;
   --bg-elevated:  #1c1c27;
   --bg-hover:     #22222f;
-  --bg-glass:     rgba(19, 19, 26, 0.75);
+  --bg-glass:     rgba(19, 19, 26, 0.95);
 
   --accent:       #ff9500;
-  --accent-dim:   rgba(0, 255, 157, 0.15);
-  --accent-glow:  rgba(0, 255, 157, 0.35);
+  --accent-dim:   rgba(255, 149, 0, 0.15);
+  --accent-glow:  rgba(255, 149, 0, 0.35);
   --accent-dark:  #cc8800;
 
   --text-primary:   #f0f0f8;
@@ -41,12 +41,12 @@
   --text-muted:     #44445a;
 
   --border:       rgba(255, 255, 255, 0.07);
-  --border-accent: rgba(0, 255, 157, 0.3);
+  --border-accent: rgba(255, 149, 0, 0.3);
 
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.4);
   --shadow-md: 0 8px 32px rgba(0,0,0,0.5);
   --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
-  --shadow-accent: 0 0 30px rgba(0,255,157,0.25);
+  --shadow-accent: 0 0 30px rgba(255, 149, 0, 0.25);
 
   --scrollbar-thumb: #2a2a3a;
   --scrollbar-thumb-hover: #3a3a50;
@@ -58,11 +58,11 @@
   --bg-surface:   #ffffff;
   --bg-elevated:  #f8f8ff;
   --bg-hover:     #ededf8;
-  --bg-glass:     rgba(255, 255, 255, 0.8);
+  --bg-glass:     rgba(255, 255, 255, 0.95);
 
   --accent:       #b89c00;
-  --accent-dim:   rgba(0, 184, 107, 0.12);
-  --accent-glow:  rgba(0, 184, 107, 0.3);
+  --accent-dim:   rgba(184, 156, 0, 0.12);
+  --accent-glow:  rgba(184, 156, 0, 0.3);
   --accent-dark:  #dcca09;
 
   --text-primary:   #0d0d1a;
@@ -70,12 +70,12 @@
   --text-muted:     #aaaacc;
 
   --border:       rgba(0, 0, 0, 0.07);
-  --border-accent: rgba(0, 184, 107, 0.3);
+  --border-accent: rgba(184, 156, 0, 0.3);
 
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
   --shadow-md: 0 8px 32px rgba(0,0,0,0.1);
   --shadow-lg: 0 20px 60px rgba(0,0,0,0.12);
-  --shadow-accent: 0 0 30px rgba(0,184,107,0.2);
+  --shadow-accent: 0 0 30px rgba(184, 156, 0, 0.2);
 
   --scrollbar-thumb: #d0d0e8;
   --scrollbar-thumb-hover: #b8b8d8;
@@ -671,7 +671,6 @@ img {
   border: 3px solid var(--border-accent);
   box-shadow: var(--shadow-accent), 0 8px 40px rgba(0,0,0,0.5);
   transition: box-shadow 0.4s var(--ease);
-  /* Rotation animation — active class added by JS */
   animation: none;
 }
 
@@ -755,7 +754,6 @@ img {
   border-radius: 3px 3px 0 0;
   min-height: 4px;
   transition: height 0.1s var(--ease);
-  /* CSS-only fallback animation — JS overrides with Web Audio */
   animation: barIdle calc(0.6s + var(--i) * 0.07s) ease-in-out infinite alternate;
   height: 8px;
 }
@@ -1188,12 +1186,14 @@ img {
 }
 
 /* ============================================================
-   12. MOBILE MINI PLAYER
+   12. MOBILE BOTTOM PLAYER (ENHANCED)
    ============================================================ */
 .mini-player {
   display: none;
   position: fixed;
-  bottom: 0; left: 0; right: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: var(--mini-player-h);
   background: var(--bg-glass);
   backdrop-filter: blur(20px);
@@ -1203,58 +1203,97 @@ img {
   align-items: center;
   gap: 12px;
   z-index: 200;
+  transition: transform 0.3s var(--ease);
 }
 
 .mini-player__art {
-  width: 46px;
-  height: 46px;
-  border-radius: var(--radius-sm);
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
   object-fit: cover;
-  border: 1px solid var(--border-accent);
+  border: 2px solid var(--border-accent);
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+  transition: transform 0.2s var(--ease-bounce);
+}
+
+.mini-player__art:active {
+  transform: scale(0.95);
 }
 
 .mini-player__info {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .mini-player__title {
   display: block;
   font-family: 'Poppins', sans-serif;
-  font-size: 0.83rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1.3;
 }
 
 .mini-player__artist {
   display: block;
   font-size: 0.72rem;
-  color: var(--text-muted);
+  color: var(--accent);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 500;
 }
 
 .mini-player__controls {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.mini-player__controls .ctrl-btn {
+  width: 38px;
+  height: 38px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-full);
+  transition: all 0.2s var(--ease-bounce);
+}
+
+.mini-player__controls .ctrl-btn:hover {
+  background: var(--accent-dim);
+  transform: scale(1.05);
+}
+
+.mini-player__controls .ctrl-btn--play-sm {
+  background: var(--accent);
+  color: #000;
+  width: 44px;
+  height: 44px;
 }
 
 .mini-player__progress {
   position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
   background: var(--bg-elevated);
+  cursor: pointer;
 }
 
 .mini-player__progress-fill {
   height: 100%;
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--accent), var(--accent-dark));
   width: 0%;
-  transition: width 0.25s linear;
+  transition: width 0.1s linear;
+  position: relative;
 }
 
 /* ============================================================
@@ -1327,17 +1366,76 @@ img {
     flex: 0 0 auto;
   }
 
-  /* Show mini player */
-  .mini-player { display: flex; }
+  /* Show enhanced mini player */
+  .mini-player { 
+    display: flex;
+    animation: slideUp 0.3s var(--ease);
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
 
   /* Hide search bar on very small screens */
   .navbar__center { display: none; }
+  
+  /* Adjust mini player for smaller screens */
+  .mini-player__art {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .mini-player__title {
+    font-size: 0.82rem;
+  }
+  
+  .mini-player__artist {
+    font-size: 0.68rem;
+  }
+  
+  .mini-player__controls {
+    gap: 4px;
+  }
+  
+  .mini-player__controls .ctrl-btn {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .mini-player__controls .ctrl-btn--play-sm {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 420px) {
   .logo__text { font-size: 1.1rem; }
   .player-card { padding: 20px 16px; }
   .album-art-wrapper, .album-art { width: 170px; height: 170px; }
+  
+  .mini-player {
+    padding: 0 12px;
+  }
+  
+  .mini-player__art {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .mini-player__controls .ctrl-btn {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .mini-player__controls .ctrl-btn--play-sm {
+    width: 38px;
+    height: 38px;
+  }
 }
 
 /* ============================================================
@@ -1346,8 +1444,9 @@ img {
 .navbar, .sidebar, .player-card, .main-playlist-section,
 .playlist-item, .main-playlist-item,
 .ctrl-btn, .search-bar__input, .theme-toggle,
-.visualizer__bar, .progress-bar, .volume-slider {
-  transition-property: background, background-color, border-color, color, box-shadow;
+.visualizer__bar, .progress-bar, .volume-slider,
+.mini-player {
+  transition-property: background, background-color, border-color, color, box-shadow, transform;
   transition-duration: 0.3s;
   transition-timing-function: var(--ease);
 }
@@ -1372,4 +1471,44 @@ img {
   display: inline-block;
   width: 40px;
   height: 10px;
+}
+
+/* ============================================================
+   18. TOUCH-FRIENDLY IMPROVEMENTS
+   ============================================================ */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets for mobile */
+  .ctrl-btn {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .ctrl-btn--sm {
+    min-width: 38px;
+    min-height: 38px;
+  }
+  
+  .playlist-item,
+  .main-playlist-item {
+    padding: 12px;
+  }
+  
+  .mp-fav-btn {
+    opacity: 1;
+    min-width: 40px;
+    min-height: 40px;
+  }
+  
+  .progress-bar {
+    height: 6px;
+  }
+  
+  .volume-slider {
+    height: 6px;
+  }
+  
+  .volume-slider::-webkit-slider-thumb {
+    width: 18px;
+    height: 18px;
+  }
 }
