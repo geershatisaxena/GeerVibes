@@ -2326,6 +2326,22 @@ const SONGS = [
         coverThumb: "assets/images/bewafase.jpg",
         faved: false
     },
+     {id:281,
+        title:"Jugraafiya",
+        artist:"Udit Narayan , Shreya Ghoshal",
+        src:"assets/songs/Jugraafiya.mp3",
+        cover:"assets/images/jugrafiya.jpg",
+        coverThumb: "assets/images/jugrafiya.jpg",
+        faved: false
+    },
+     {id:282,
+        title:"Jaiye Sajna",
+        artist:"Satinder Sartaaj , Jasmine Sandalas",
+        src:"assets/songs/Jaiye Sajana.mp3",
+        cover:"assets/images/revenge.jpg",
+        coverThumb: "assets/images/revenge.jpg",
+        faved: false
+    },
 ];
 
 /* ============================================================
