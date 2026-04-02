@@ -136,6 +136,3 @@ Works in all modern browsers: Chrome, Firefox, Edge, Safari (desktop and mobile)
 
 ---
 
-## 📄 License
-
-This project is for personal/educational use. Ensure you have the appropriate rights for any audio files or images you include.
