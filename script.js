@@ -2353,7 +2353,7 @@ const SONGS = [
      {id:284,
         title:"Tamma Tamma Loge",
         artist:"Bappi Lahiri,Anuradha Paudwal",
-        src:"assets/songs/Jaiye Sajana.mp3",
+        src:"assets/songs/Tamma Tamma(Audio) Dhurandhar The Revenge  Ranveer Singh Bappi Lahiri, Anuradha Paudwal, Indeevar - Copy.mp3",
         cover:"assets/images/revenge.jpg",
         coverThumb: "assets/images/revenge.jpg",
         faved: false
