@@ -2342,6 +2342,22 @@ const SONGS = [
         coverThumb: "assets/images/revenge.jpg",
         faved: false
     },
+     {id:283,
+        title:"Didi Sher E Baloch",
+        artist:"Nabil El Houri, Shashwat Sachdev, Sons of Yusuf",
+        src:"assets/songs/Didi (Sher E Baloch) - SouthMelody - Copy.mp3",
+        cover:"assets/images/revenge.jpg",
+        coverThumb: "assets/images/revenge.jpg",
+        faved: false
+    },
+     {id:284,
+        title:"Tamma Tamma Loge",
+        artist:"Bappi Lahiri,Anuradha Paudwal",
+        src:"assets/songs/Jaiye Sajana.mp3",
+        cover:"assets/images/revenge.jpg",
+        coverThumb: "assets/images/revenge.jpg",
+        faved: false
+    },
 ];
 
 /* ============================================================
