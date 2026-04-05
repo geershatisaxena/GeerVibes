@@ -2358,6 +2358,22 @@ const SONGS = [
         coverThumb: "assets/images/revenge.jpg",
         faved: false
     },
+      {id:285,
+        title:"Dilbara Ve ",
+        artist:"Sachet-Parampara",
+        src:"assets/songs/Dilbara Pati Patni Aur Woh 128 Kbps.mp3",
+        cover:"assets/images/dilbara.jpg",
+        coverThumb: "assets/images/dilbara.jpg",
+        faved: false
+    },
+      {id:286,
+        title:"Lut Gaye",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Lut Gaye Jubin Nautiyal 128 Kbps.mp3",
+        cover:"assets/images/lutgaye.jpg",
+        coverThumb: "assets/images/lutgaye.jpg",
+        faved: false
+    },
 ];
 
 /* ============================================================
