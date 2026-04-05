@@ -2374,6 +2374,14 @@ const SONGS = [
         coverThumb: "assets/images/lutgaye.jpg",
         faved: false
     },
+     {id:287,
+        title:"Saanso Ki Maala",
+        artist:"Rahat Fateh Ali Khan",
+        src:"assets/songs/Sanson Ki Mala Rahat Fateh Ali Khan 128 Kbps.mp3",
+        cover:"assets/images/mala.jpg",
+        coverThumb: "assets/images/mala.jpg",
+        faved: false
+    },
 ];
 
 /* ============================================================
