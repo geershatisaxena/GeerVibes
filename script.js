@@ -841,8 +841,8 @@ const SONGS = [
         title: "Jalte Diye",
         artist: "Himesh Reshammiya, Anwesshaa, Vineet Singh, Harshdeep Kaur, Shabab Sabri, Chorus",
         src: "assets/songs/Jalte.mp3",
-        cover: "assets/images/Jalte.jpg",
-        coverThumb: "assets/images/Jalte.jpg",
+        cover: "assets/images/Prdp.jpg",
+        coverThumb: "assets/images/Prdp.jpg",
         faved: false
     },
 {id:98,
@@ -881,24 +881,24 @@ const SONGS = [
         title: "Pyar Hota Kayi Baar Hai",
         artist: "Pritam, Arijit Singh, Charan",
         src: "assets/songs/Baar.mp3",
-        cover: "assets/images/Baar.jpg",
-        coverThumb: "assets/images/Baar.jpg",
+        cover: "assets/images/tjmm.jpg",
+        coverThumb: "assets/images/tjmm.jpg",
         faved: false
     },
 {id:103,
         title: "Show Me The Thumka",
         artist: "Pritam, Shashwat Singh, Sunidhi Chauhan",
         src: "assets/songs/Thu.mp3",
-        cover: "assets/images/Thu.jpg",
-        coverThumb: "assets/images/Thu.jpg",
+        cover: "assets/images/tjmm.jpg",
+        coverThumb: "assets/images/tjmm.jpg",
         faved: false
     },
 {id:104,
         title: "O Bedardeya",
         artist: "Pritam, Arijit Singh",
         src: "assets/songs/Bedard.mp3",
-        cover: "assets/images/Bedard.jpg",
-        coverThumb: "assets/images/Bedard.jpg",
+        cover: "assets/images/tjmm.jpg",
+        coverThumb: "assets/images/tjmm.jpg",
         faved: false
     },
 {id:105,
@@ -1477,8 +1477,8 @@ const SONGS = [
         title:"Banjaare Ko Ghar",
         artist:"Mithoon, Mohhammed Irfan",
         src:"assets/songs/Banjaara Ek Villain 128 Kbps.mp3",
-        cover:"assets/images/banjara.jpg",
-        coverThumb: "assets/images/banjara.jpg",
+        cover:"assets/images/zaroorat.jpg",
+        coverThumb: "assets/images/zaroorat.jpg",
         faved: false
     },
     {id:178,    
@@ -2382,6 +2382,49 @@ const SONGS = [
         coverThumb: "assets/images/mala.jpg",
         faved: false
     },
+     {id:288,
+        title:"Rabba Mai to Mar Gaya",
+        artist:"Pritam, Rahat Fateh Ali Khan",
+        src:"assets/songs/Rabba mai.mp3",
+        cover:"assets/images/rabba.jpg",
+        coverThumb: "assets/images/rabba.jpg",
+        faved: false
+    },
+     {id:289,
+        title:"Mitwa",
+        artist:" Shankar Mahadevan, Caralisa Monteiro & Shafqat Amanat Ali",
+        src:"assets/songs/Mitwa Kabhi Alvida Naa Kehna 128 Kbps.mp3",
+        cover:"assets/images/alvida.jpg",
+        coverThumb: "assets/images/alvida.jpg",
+        faved: false
+    },
+     {id:290,
+        title:"Kabhi Alvida Naa Kehna",
+        artist:"Sonu Nigam, Alka Yagnik",
+        src:"assets/songs/Kabhi Alvida Naa Kehna Shankar Ehsaan Loy 128 Kbps.mp3",
+        cover:"assets/images/alvida.jpg",
+        coverThumb: "assets/images/alvida.jpg",
+        faved: false
+    },
+     {id:291,
+        title:"Khuda Jaane",
+        artist:"KK, Shilpa Rao",
+        src:"assets/songs/Khuda Jaane Bachna Ae Haseeno 128 Kbps.mp3",
+        cover:"assets/images/khuda.jpg",
+        coverThumb: "assets/images/khuda.jpg",
+        faved: false
+    },
+    {id:292,
+        title:"Subhanllah",
+        artist:"Sreeram, Shilpa Rao",
+        src:"assets/songs/Subhanallah Yeh Jawaani Hai Deewani 128 Kbps.mp3",
+        cover:"assets/images/subhanallah.jpg",
+        coverThumb: "assets/images/subhanallah.jpg",
+        faved: false
+    },
+
+
+
 ];
 
 /* ============================================================
