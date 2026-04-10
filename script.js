@@ -2755,7 +2755,7 @@ const UI = {
   updateSongInfo(song) {
     DOM.songTitle.textContent = song.title;
     DOM.songArtist.textContent = song.artist;
-    DOM.songAlbum.textContent = song.album || 'Single';
+    DOM.songAlbum.textContent = song.album || '';
     
     // OPTIMIZED: Lazy load album art
     loadImageWithLazy(DOM.albumImg, song.cover, `${song.title} - ${song.artist}`);
