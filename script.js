@@ -2422,6 +2422,54 @@ const SONGS = [
         coverThumb: "assets/images/subhanallah.jpg",
         faved: false
     },
+      {id:293,
+        title:"Kuchh to Bata Zindagi",
+        artist:"Pritam, Jubin Nautiyal",
+        src:"assets/songs/Zindagi Kuch Toh Bata Reprise Bajrangi Bhaijaan 128 Kbps.mp3",
+        cover:"assets/images/bajrangi.jpg",
+        coverThumb: "assets/images/bajrangi.jpg",
+        faved: false
+    },
+      {id:294,
+        title:"Hua Haaj Pehli Baar",
+        artist:"Amaal Mallik, Armaan Malik, Palak Muchhal",
+        src:"assets/songs/Hua Hain Aaj Pehli Baar Sanam Re 128 Kbps.mp3",
+        cover:"assets/images/sanamre.jpg",
+        coverThumb: "assets/images/sanamre.jpg",
+        faved: false
+    },
+  {id:295,
+        title:"Besabriyaan",
+        artist:"Amaal Mallik, Armaan Malik",
+        src:"assets/songs/Besabriyaan M.s. Dhoni The Untold Story 128 Kbps.mp3",
+        cover:"assets/images/msd.jpg",
+        coverThumb: "assets/images/msd.jpg",
+        faved: false
+    },
+    {id:296,
+        title:"Beete Lamhe",
+        artist:"Mithoon,KK",
+        src:"assets/songs/Beete Lamhein The Train 128 Kbps.mp3",
+        cover:"assets/images/beete.jpg",
+        coverThumb: "assets/images/beete.jpg",
+        faved: false
+    },
+ {id:297,
+        title:"Kaun Tujhe",
+        artist:"Amaal Mallik, Palak Muchhal",
+        src:"assets/songs/Kaun Tujhe M.s. Dhoni The Untold Story 128 Kbps.mp3",
+        cover:"assets/images/msd.jpg",
+        coverThumb: "assets/images/msd.jpg",
+        faved: false
+    },
+     {id:298,
+        title:"Jab Tak",
+        artist:"Amaal Mallik, Armaan Malik",
+        src:"assets/songs/Jab Tak M.s. Dhoni The Untold Story 128 Kbps.mp3",
+        cover:"assets/images/msd.jpg",
+        coverThumb: "assets/images/msd.jpg",
+        faved: false
+    },
 
 
 
