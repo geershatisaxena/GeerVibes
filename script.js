@@ -2470,6 +2470,24 @@ const SONGS = [
         coverThumb: "assets/images/msd.jpg",
         faved: false
     },
+     {id:299,
+        title:"Aari Aari",
+        artist:"Navtej Singh Rehal (Bombay Rockers),Shashwat Sachdev,Khan Saab,Jasmine Sandlas,Sudhir Yaduvanshi",
+        src:"assets/songs/Aari.mp3",
+        cover:"assets/images/revenge.jpg",
+        coverThumb: "assets/images/revenge.jpg",
+        faved: false
+    },
+     {id:300,
+        title:"Main Na Raha",
+        artist:" Shashwat Sachdev, Jubin Nautiyal",
+        src:"assets/songs/Main Na Raha Dhurandhar The Revenge (pagalall.com).mp3",
+        cover:"assets/images/revenge.jpg",
+        coverThumb: "assets/images/revenge.jpg",
+        faved: false
+    },
+    
+
 
 
 
