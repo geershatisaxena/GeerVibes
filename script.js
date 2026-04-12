@@ -2502,7 +2502,14 @@ const SONGS = [
         coverThumb: "assets/images/vishwas.jpg",
         faved: false
     },
-
+ {id:303,
+        title:"Kaiakyi Taine",
+        artist:"Dr. Kumar Vishwas",
+        src:"assets/songs/kaikayi.mp3",
+        cover:"assets/images/vishwas.jpg",
+        coverThumb: "assets/images/vishwas.jpg",
+        faved: false
+    },
 
 
 ];
