@@ -2486,7 +2486,14 @@ const SONGS = [
         coverThumb: "assets/images/revenge.jpg",
         faved: false
     },
-    
+    {id:301,
+        title:"Sanam Re",
+        artist:"Mithoon, Arijit Singh",
+        src:"assets/songs/Sanam Re Arijit Singh 128 Kbps.mp3",
+        cover:"assets/images/sanamre.jpg",
+        coverThumb: "assets/images/sanamre.jpg",
+        faved: false
+    },
 
 
 
