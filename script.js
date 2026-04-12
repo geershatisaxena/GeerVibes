@@ -2494,7 +2494,14 @@ const SONGS = [
         coverThumb: "assets/images/sanamre.jpg",
         faved: false
     },
-
+     {id:302,
+        title:"Ghana Din So Liyo Re",
+        artist:"Dr. Kumar Vishwas",
+        src:"assets/songs/ghana din.mp3",
+        cover:"assets/images/vishwas.jpg",
+        coverThumb: "assets/images/vishwas.jpg",
+        faved: false
+    },
 
 
 
