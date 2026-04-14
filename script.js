@@ -2510,6 +2510,22 @@ const SONGS = [
         coverThumb: "assets/images/vishwas.jpg",
         faved: false
     },
+{id:304,
+        title:"Sabse Sundar Sapne Ram ",
+        artist:"Dr. Kumar Vishwas",
+        src:"assets/songs/सबस सदर सपन रम  Sabse Sundar Sapne Ram  Dr Kumar Vishwas  Full HD Video.mp3",
+        cover:"assets/images/Sundarram.jpg",
+        coverThumb: "assets/images/Sundarram.jpg",
+        faved: false
+    },
+    {id:305,
+        title:"Paisa Hai Toh",
+        artist:"Sachin-Jigar,Vishal Dadlani, MellowD",
+        src:"assets/songs/Paisa Hai Toh (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/paisa.jpg",
+        coverThumb: "assets/images/paisa.jpg",
+        faved: false
+    },
 
 
 ];
