@@ -2534,6 +2534,14 @@ const SONGS = [
         coverThumb: "assets/images/dishoom.jpg",
         faved: false
     },
+      {id:307,
+        title:"Maan Meri Jaan",
+        artist:"King",
+        src:"assets/songs/jaaaaaaan.mp3",
+        cover:"assets/images/king.jpg",
+        coverThumb: "assets/images/king.jpg",
+        faved: false
+    },
 
 ];
 
