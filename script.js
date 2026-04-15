@@ -2526,7 +2526,14 @@ const SONGS = [
         coverThumb: "assets/images/paisa.jpg",
         faved: false
     },
-
+        {id:306,
+        title:"Sau Tarah Ke",
+        artist:"Pritam, Jonita Gandhi, Amit Mishra",
+        src:"assets/songs/Sau Tarah Ke Dishoom 320 Kbps.mp3",
+        cover:"assets/images/dishoom.jpg",
+        coverThumb: "assets/images/dishoom.jpg",
+        faved: false
+    },
 
 ];
 
