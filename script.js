@@ -2542,7 +2542,15 @@ const SONGS = [
         coverThumb: "assets/images/king.jpg",
         faved: false
     },
-
+     {id:308,
+        title:"Sooraj Dooba Hai ",
+        artist:"Amaal Mallik, Arijit Singh, Aditi Singh Sharma",
+        src:"assets/songs/Sooraj Dooba Hain Roy 320 Kbps.mp3",
+        cover:"assets/images/Roy.jpg",
+        coverThumb: "assets/images/Roy.jpg",
+        faved: false
+    },
+   
 ];
 
 /* ============================================================
