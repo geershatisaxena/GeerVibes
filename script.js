@@ -2550,6 +2550,15 @@ const SONGS = [
         coverThumb: "assets/images/Roy.jpg",
         faved: false
     },
+      {id:309,
+        title:"Chitiya Kalaiya ",
+        artist:" Meet Bros Anjjan, Kanika Kapoor",
+        src:"assets/songs/Chittiyaan Kalaiyaan Roy 320 Kbps.mp3",
+        cover:"assets/images/Roy.jpg",
+        coverThumb: "assets/images/Roy.jpg",
+        faved: false
+    },
+
    
 ];
 
