@@ -2558,6 +2558,14 @@ const SONGS = [
         coverThumb: "assets/images/Roy.jpg",
         faved: false
     },
+    {id:310,
+        title:"Tauba Tauba",
+        artist:" Karan Aujla",
+        src:"assets/songs/Tauba Tauba - Karan Aujla.mp3",
+        cover:"assets/images/tauba.jpg",
+        coverThumb: "assets/images/tauba.jpg",
+        faved: false
+    },
 
    
 ];
