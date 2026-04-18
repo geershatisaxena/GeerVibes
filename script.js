@@ -2566,12 +2566,12 @@ const SONGS = [
         coverThumb: "assets/images/tauba.jpg",
         faved: false
     },
- {id:310,
+ {id:311,
         title:"Naacho Naacho",
         artist:"Vishal Mishra, Rahul Sipligunj",
-        src:"",
-        cover:"assets/images/tauba.jpg",
-        coverThumb: "assets/images/tauba.jpg",
+        src:"assets/songs/Naacho Naacho Rrr 2021 128 Kbps.mp3",
+        cover:"assets/images/nacho.jpg",
+        coverThumb: "assets/images/nacho.jpg",
         faved: false
     },
 
