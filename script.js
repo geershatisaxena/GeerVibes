@@ -2566,6 +2566,14 @@ const SONGS = [
         coverThumb: "assets/images/tauba.jpg",
         faved: false
     },
+ {id:310,
+        title:"Naacho Naacho",
+        artist:"Vishal Mishra, Rahul Sipligunj",
+        src:"",
+        cover:"assets/images/tauba.jpg",
+        coverThumb: "assets/images/tauba.jpg",
+        faved: false
+    },
 
    
 ];
