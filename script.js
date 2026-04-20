@@ -2574,7 +2574,22 @@ const SONGS = [
         coverThumb: "assets/images/nacho.jpg",
         faved: false
     },
-
+ {id:312,
+        title:"Kahani Suno",
+        artist:"Kaifi Khalil",
+        src:"assets/songs/Kahani Suno 2 Kaifi Khalil 128 Kbps.mp3",
+        cover:"assets/images/kahani suno.jpg",
+        coverThumb: "assets/images/kahani suno.jpg",
+        faved: false
+    },
+     {id:313,
+        title:"Kahani Suno Repsrise",
+        artist:"Kaifi Khalil, Jubin Nautiyal",
+        src:"assets/songs/Kahani Suno 2.0 (Extended Version) - Jubin Nautiyal  Live Performance  Kaifi Khalil.mp3",
+        cover:"assets/images/jubin.jpg",
+        coverThumb: "assets/images/jubin.jpg",
+        faved: false
+    },
    
 ];
 
