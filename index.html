@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GeerVibes</title>
 
-  <!-- No external font requests — system fonts only -->
+  <!-- Google Fonts: Poppins + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -13,7 +16,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
 
-  <!-- Cyberpunk Stylesheet -->
+  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -31,13 +34,13 @@
       <!-- Logo -->
       <div class="logo">
         <div class="logo__icon">
-          <img src="logo.svg" alt="GeerVibes Logo" style="width:36px;height:36px;display:block;" />
+          <img src="logo.svg" alt="GeerVibes Logo" style="width:38px;height:38px;display:block;" />
         </div>
-        <span class="logo__text">
-          GeerVibes
-          <em>The Melody</em>
-          <em>in Every Moment</em>
-        </span>
+       <span class="logo__text">
+  Geer<em style="color: #4A5568;">Vibes</em>
+  <em style="color: #9B59B6;">The Melody</em>
+  <em style="color: #E67E22;"> in Every Moment</em>
+</span>
       </div>
     </div>
 
@@ -261,7 +264,7 @@
   <!-- Hidden Audio Element -->
   <audio id="audioPlayer" preload="metadata"></audio>
 
-  <!-- Main Script (unchanged) -->
+  <!-- Main Script -->
   <script src="script.js"></script>
 </body>
 </html>
