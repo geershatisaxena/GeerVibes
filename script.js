@@ -2590,6 +2590,22 @@ const SONGS = [
         coverThumb: "assets/images/jubin.jpg",
         faved: false
     },
+       {id:314,
+        title:"Channa Mereya",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Channa Mereya Ae Dil Hai Mushkil 320 Kbps.mp3",
+        cover:"assets/images/chanaa.jpg",
+        coverThumb: "assets/images/channa.jpg",
+        faved: false
+    },
+       {id:315,
+        title:"Ae Dil Hai Mushkil",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Ae Dil Hai Mushkil Title Track Pritam 320 Kbps.mp3",
+        cover:"assets/images/adhm.jpg",
+        coverThumb: "assets/images/adhm.jpg",
+        faved: false
+    },
    
 ];
 
