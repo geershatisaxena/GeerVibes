@@ -2547,7 +2547,7 @@ const SONGS = [
         artist:"Amaal Mallik, Arijit Singh, Aditi Singh Sharma",
         src:"assets/songs/Sooraj Dooba Hain Roy 320 Kbps.mp3",
         cover:"assets/images/Roy.jpg",
-        coverThumb: "assets/images/Roy.jpg",
+        coverThumb:"assets/images/Roy.jpg",
         faved: false
     },
       {id:309,
@@ -2555,7 +2555,7 @@ const SONGS = [
         artist:" Meet Bros Anjjan, Kanika Kapoor",
         src:"assets/songs/Chittiyaan Kalaiyaan Roy 320 Kbps.mp3",
         cover:"assets/images/Roy.jpg",
-        coverThumb: "assets/images/Roy.jpg",
+        coverThumb:"assets/images/Roy.jpg",
         faved: false
     },
     {id:310,
