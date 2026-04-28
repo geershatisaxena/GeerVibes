@@ -2606,6 +2606,14 @@ const SONGS = [
         coverThumb: "assets/images/adhm.jpg",
         faved: false
     },
+      {id:316,
+        title:"Fitoor",
+        artist:"Mithoon, Arijit Singh, Neeti Mohan",
+        src:"assets/songs/Fitoor Shamshera Hindi 320 Kbps.mp3",
+        cover:"assets/images/fitoor.jpg",
+        coverThumb: "assets/images/fitoor.jpg",
+        faved: false
+    },
    
 ];
 
