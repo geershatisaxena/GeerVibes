@@ -23,7 +23,7 @@
 
 ## 🔥 **THE EXPERIENCE**
 
-> **225+ tracks** | **Zero latency** | **Neon aesthetics** | **Full keyboard command**
+> **310+ tracks** | **Zero latency** | **Neon aesthetics** | **Full keyboard command**
 
 GeerVibes isn't just a music player — it's a **cyberpunk audio sanctuary**. Every pixel glows, every transition hums, and the sound engine punches way above its weight class. No backend. No databases. Just you, your library, and the **purest vanilla JavaScript** your browser can handle.
 
