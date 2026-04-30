@@ -3,7 +3,7 @@
 ## ⚡ *The Melody in Every Moment*
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/spotify.svg" width="60" alt="vibes" style="filter: drop-shadow(0 0 20px #0ff);">
+  <img src="https://github.com/geershatisaxena/GeerVibes/blob/main/logo.svg" width="60" alt="vibes" style="filter: drop-shadow(0 0 20px #0ff);">
 </p>
 
 <p align="center">
@@ -48,4 +48,3 @@ GeerVibes isn't just a music player — it's a **cyberpunk audio sanctuary**. Ev
 
 ---
 
-## 🗂️ **PROJECT ARCHITECTURE — Clean. Modular. Savage.**
