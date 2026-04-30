@@ -2614,6 +2614,14 @@ const SONGS = [
         coverThumb: "assets/images/fitoor.jpg",
         faved: false
     },
+     {id:317,
+        title:"Abaad Barbaad",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Aabaad Barbaad 320 Kbps.mp3",
+        cover:"assets/images/abaad.jpg",
+        coverThumb: "assets/images/abaad.jpg",
+        faved: false
+    },
    
 ];
 
