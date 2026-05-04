@@ -2630,6 +2630,14 @@ const SONGS = [
         coverThumb: "assets/images/shiv.jpg",
         faved: false
     },
+     {id:319,
+        title:"Bam Lahri",
+        artist:"Kailash Kher",
+        src:"assets/songs/Bambam Bam (Bam Lehri) - Various.mp3",
+        cover:"assets/images/bam.jpg",
+        coverThumb: "assets/images/bam.jpg",
+        faved: false
+    },
    
 ];
 
