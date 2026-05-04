@@ -2622,6 +2622,14 @@ const SONGS = [
         coverThumb: "assets/images/abaad.jpg",
         faved: false
     },
+      {id:318,
+        title:"Shiv Kailasho Ke Wasi",
+        artist:"Jubin Nautiyal",
+        src:"assets/songs/Shiv Kailasho Ke Vasi.mp3",
+        cover:"assets/images/shiv.jpg",
+        coverThumb: "assets/images/shiv.jpg",
+        faved: false
+    },
    
 ];
 
