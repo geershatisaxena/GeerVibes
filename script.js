@@ -2638,6 +2638,15 @@ const SONGS = [
         coverThumb: "assets/images/bam.jpg",
         faved: false
     },
+         {id:320,
+        title:"Saj Rahe Bhole Baba",
+        artist:"Ram Kumar Lakkha",
+        src:"assets/songs/saj rahe.mp3",
+        cover:"assets/images/saj.jpg",
+        coverThumb: "assets/images/saj.jpg",
+        faved: false
+    },
+   
    
 ];
 
