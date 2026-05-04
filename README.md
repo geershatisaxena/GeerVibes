@@ -1,40 +1,50 @@
-# GeerVibes 🎵
+# 🎧 G E E R V I B E S
 
-**The Melody in Every Moment**  
-*A premium, fully client-side music streaming web application built with raw HTML5, CSS3, and Vanilla JavaScript.*
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES2020-yellow)
-![CSS3](https://img.shields.io/badge/CSS3-Cyberpunk-ff69b4)
-![No Frameworks](https://img.shields.io/badge/No_Frameworks-Pure_JS-blueviolet)
+## ⚡ *The Melody in Every Moment*
 
 <p align="center">
-  <img src="logo.svg" alt="GeerVibes Logo" width="150">
+  <img src="https://github.com/geershatisaxena/GeerVibes/blob/main/logo.svg" width="60" alt="vibes" style="filter: drop-shadow(0 0 20px #0ff);">
+</p>
+
+<p align="center">
+  <strong>A premium, fully client-side music streaming web application</strong><br>
+  <em>Built with raw HTML5, CSS3, and Vanilla JavaScript — no frameworks, no compromises.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-cyan?style=flat-square&logo=opensourceinitiative&color=00ffff">
+  <img src="https://img.shields.io/badge/JavaScript-ES2020-f7df1e?style=flat-square&logo=javascript&color=yellow">
+  <img src="https://img.shields.io/badge/CSS3-Cyberpunk-ff69b4?style=flat-square&logo=css3">
+  <img src="https://img.shields.io/badge/Frameworks-None-blueviolet?style=flat-square&logo=webpack&labelColor=1a1a2e">
+  <img src="https://img.shields.io/badge/Ready_To_Play-Yes-brightgreen?style=flat-square&logo=html5">
 </p>
 
 ---
 
-## 📡 About
+## 🔥 **THE EXPERIENCE**
 
-**GeerVibes** is a fully client-side music streaming web application built with **HTML5**, **CSS3**, and **Vanilla JavaScript**. No build tools. No frameworks. No external JS libraries. Just raw, hand-crafted code that loads fast and sounds great.
+> **310+ tracks** | **Zero latency** | **Neon aesthetics** | **Full keyboard command**
 
-The UI features a **Cyberpunk Neon Futuristic** aesthetic — electric neon glows, holographic glassmorphism, scanline overlays, and smooth CSS animations. The library includes **225+ tracks** spanning Bollywood, devotional, pop, EDM, and international genres.
+GeerVibes isn't just a music player — it's a **cyberpunk audio sanctuary**. Every pixel glows, every transition hums, and the sound engine punches way above its weight class. No backend. No databases. Just you, your library, and the **purest vanilla JavaScript** your browser can handle.
 
-## ⚡ Core Features
+---
 
-| Feature | Description |
-|---------|-------------|
-| 🎵 **Full Audio Engine** | Play, pause, seek, skip, loop and shuffle via Web Audio API with real-time metadata |
-| 📊 **Waveform Visualiser** | 20-bar animated neon visualiser synced to playback state |
-| 🔁 **Shuffle & Repeat** | Three repeat modes + Fisher-Yates shuffle queue engine |
-| 🔍 **Live Search** | Instant filter by title or artist as you type |
-| ❤️ **Favourites** | Save favourite tracks and filter queue to show only them |
-| 🔊 **Volume Control** | Smooth slider with mute toggle and keyboard +/- shortcuts |
-| 📱 **Mobile Mini Player** | Sticky bottom player on mobile with essential controls |
-| 🌙 **Dark / Light Theme** | Persistent theme toggle (Cyberpunk Neon / Holographic Day Mode) |
-| ⚡ **Lazy Duration Load** | Song durations load asynchronously with shimmer placeholders |
-| 💾 **Zero Internet Fonts** | System-native fonts only — no Google Fonts network calls |
-| 🎨 **Cyberpunk Design** | Neon glows, CSS grid scanlines, clip-path geometry |
-| ⌨️ **Keyboard Control** | Full keyboard shortcut set — no mouse needed |
+## 🎛️ **COMMAND CENTER — Features That Hit Hard**
 
-## 📁 Project Structure
+| Module | Capability |
+|:-------|:-----------|
+| 🎵 **AUDIO ENGINE** | Web Audio API masterpiece — play, pause, seek, skip, loop, shuffle with real‑time metadata |
+| 📊 **WAVE VISUALIZER** | 20‑bar neon spectrum analyser — *pulses to your actual audio frequency data* |
+| 🔁 **SMART QUEUE** | Fisher‑Yates shuffle + 3 repeat modes (off / single / all) |
+| 🔍 **LIVE SEARCH** | Instant filtering by track title or artist — no debounce lag, just speed |
+| ❤️ **FAVORITES** | One‑click save → persistent localStorage → filter queue to show only loved tracks |
+| 🔊 **VOLUME DOMINATION** | Smooth logarithmic slider + mute toggle + keyboard shortcuts (`+` / `-` / `M`) |
+| 📱 **MOBILE MINI‑PLAYER** | Sticky bottom bar on mobile — essential controls, one‑thumb operation |
+| 🌙 **DUAL THEMES** | Cyberpunk Neon (default) ↔️ Holographic Day Mode — persistent across sessions |
+| ⏳ **LAZY DURATION LOAD** | Shimmer placeholders → async duration fetch → no UI blocking |
+| 💾 **ZERO EXTERNAL CALLS** | System‑native fonts only — *no Google Fonts, no CDN, no tracking* |
+| 🎨 **CYBERPUNK DNA** | Neon glows, glassmorphism, CSS grid scanlines, clip‑path geometry, reactive hover states |
+| ⌨️ **KEYBOARD GOD MODE** | `Space` (play/pause) · `←` / `→` (seek ±10s) · `↑` / `↓` (volume) · `S` (shuffle) · `L` (loop) · `F` (favourite current) |
+
+---
+
