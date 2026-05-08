@@ -2646,6 +2646,14 @@ const SONGS = [
         coverThumb: "assets/images/saj.jpg",
         faved: false
     },
+    {id:321,
+        title:"Shayad",
+        artist:"Pritam, Arijit Singh",
+        src:"assets/songs/Shayad Love Aaj Kal 320 Kbps.mp3",
+        cover:"assets/images/shayad.jpg",
+        coverThumb: "assets/images/shayad.jpg",
+        faved: false
+    },
    
    
 ];
