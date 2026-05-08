@@ -2654,6 +2654,14 @@ const SONGS = [
         coverThumb: "assets/images/shayad.jpg",
         faved: false
     },
+     {id:322,
+        title:"Vaari Jaavan",
+        artist:"Jyoti Nooran, Reble",
+        src:"assets/songs/Vaari Jaavan Dhurandhar The Revenge 320 Kbps.mp3",
+        cover:"assets/images/revenge.jpg",
+        coverThumb: "assets/images/revenge.jpg",
+        faved: false
+    },
    
    
 ];
