@@ -2662,6 +2662,16 @@ const SONGS = [
         coverThumb: "assets/images/revenge.jpg",
         faved: false
     },
+     {id:323,
+        title:"Ishq Wala Love",
+        artist:"Salim Merchant, Neeti Mohan, Shekhar Ravjiani",
+        src:"assets/songs/Ishq Wala Love Student Of The Year 320 Kbps.mp3",
+        cover:"assets/images/love.jpg",
+        coverThumb: "assets/images/love.jpg",
+        faved: false
+    },
+    
+
    
    
 ];
