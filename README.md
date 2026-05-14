@@ -1,15 +1,141 @@
 <div align="center">
 
-<!-- Animated Glowing Title -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=50&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&repeat=true&width=750&height=90&lines=🎧+G+E+E+R+V+I+B+E+S" alt="GeerVibes" />
+<!-- ╔══════════════════════════════════════════╗
+     ║   SELF-CONTAINED ANIMATED SVG BANNER    ║
+     ╚══════════════════════════════════════════╝ -->
 
-<!-- Animated Subtitle Cycler -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=800&color=FF00FF&center=true&vCenter=true&width=680&height=45&lines=⚡+The+Melody+in+Every+Moment;🌐+Cyberpunk+Audio+Sanctuary;🎧+320%2B+Tracks+·+Zero+Latency;💾+No+Backend.+No+Frameworks.+Just+Vibes.;🔥+Pure+Vanilla+JavaScript" alt="Subtitle Typer" />
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060612"/>
+      <stop offset="100%" style="stop-color:#0d0020"/>
+    </linearGradient>
+    <!-- Title gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#ff00ff;#00ff88;#00ffff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff;#00ff88;#00ffff;#ff00ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="10"/>
+
+  <!-- Scanlines -->
+  <rect width="800" height="200" rx="10"
+    fill="none"
+    style="background: repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,255,255,0.03) 2px,rgba(0,255,255,0.03) 4px)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="50"  x2="800" y2="50"  stroke="rgba(0,255,255,0.06)" stroke-width="1"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="rgba(0,255,255,0.06)" stroke-width="1"/>
+  <line x1="0" y1="150" x2="800" y2="150" stroke="rgba(0,255,255,0.06)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="200" stroke="rgba(0,255,255,0.04)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="200" stroke="rgba(0,255,255,0.04)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="200" stroke="rgba(0,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Glow title shadow -->
+  <text x="400" y="90" text-anchor="middle"
+    font-family="monospace" font-size="52" font-weight="900" letter-spacing="18"
+    fill="#00ffff" opacity="0.25" filter="url(#glow)">
+    GEERVIBES
+  </text>
+
+  <!-- Main title with animated gradient -->
+  <text x="400" y="90" text-anchor="middle"
+    font-family="monospace" font-size="52" font-weight="900" letter-spacing="18"
+    fill="url(#titleGrad)" filter="url(#softglow)">
+    <animate attributeName="opacity" values="0;1;0.8;1" dur="1.2s" fill="freeze"/>
+    GEERVIBES
+  </text>
+
+  <!-- Animated subtitle — cycles 5 phrases -->
+  <text x="400" y="128" text-anchor="middle"
+    font-family="monospace" font-size="14" letter-spacing="3"
+    fill="#ff00ff" filter="url(#softglow)">
+    <animate attributeName="opacity"
+      values="0;1;1;1;1;0; 0;1;1;1;1;0; 0;1;1;1;1;0; 0;1;1;1;1;0; 0;1;1;1;1;0"
+      dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="fill"
+      values="#ff00ff;#ff00ff;#00ffff;#00ff88;#ff00ff;#ff00ff"
+      dur="15s" repeatCount="indefinite"/>
+    <!-- Text cycles via tspan visibility -->
+  </text>
+
+  <!-- Phrase 1 -->
+  <text x="400" y="128" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2" fill="#ff00ff">
+    <animate attributeName="opacity" values="0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="15s" repeatCount="indefinite"/>
+    ⚡  THE MELODY IN EVERY MOMENT
+  </text>
+
+  <!-- Phrase 2 -->
+  <text x="400" y="128" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2" fill="#00ffff">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="15s" repeatCount="indefinite"/>
+    🌐  CYBERPUNK AUDIO SANCTUARY
+  </text>
+
+  <!-- Phrase 3 -->
+  <text x="400" y="128" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2" fill="#00ff88">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="15s" repeatCount="indefinite"/>
+    🎧  320+ TRACKS · ZERO LATENCY
+  </text>
+
+  <!-- Phrase 4 -->
+  <text x="400" y="128" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2" fill="#ff00ff">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="15s" repeatCount="indefinite"/>
+    💾  NO BACKEND · NO FRAMEWORKS
+  </text>
+
+  <!-- Phrase 5 -->
+  <text x="400" y="128" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2" fill="#00ffff">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" dur="15s" repeatCount="indefinite"/>
+    🔥  PURE VANILLA JAVASCRIPT
+  </text>
+
+  <!-- Bottom cursor blink -->
+  <rect x="378" y="138" width="10" height="2" fill="#00ffff">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom tagline -->
+  <text x="400" y="175" text-anchor="middle"
+    font-family="monospace" font-size="11" letter-spacing="4"
+    fill="rgba(0,255,255,0.4)">
+    A PREMIUM CLIENT-SIDE MUSIC STREAMING EXPERIENCE
+  </text>
+
+  <!-- Corner accents -->
+  <polyline points="10,30 10,10 30,10" stroke="#00ffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <polyline points="770,10 790,10 790,30" stroke="#00ffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <polyline points="10,170 10,190 30,190" stroke="#ff00ff" stroke-width="2" fill="none" opacity="0.6"/>
+  <polyline points="770,190 790,190 790,170" stroke="#ff00ff" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Side decorative dots -->
+  <circle cx="22" cy="100" r="3" fill="#00ffff" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="778" cy="100" r="3" fill="#ff00ff" opacity="0.5">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
 
 <br/>
 
 <!-- Logo -->
-<img src="https://github.com/geershatisaxena/GeerVibes/blob/main/logo.svg" width="90" alt="GeerVibes Logo" />
+<img src="https://github.com/geershatisaxena/GeerVibes/blob/main/logo.svg" width="72" alt="GeerVibes Logo" />
 
 <br/><br/>
 
@@ -19,14 +145,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-Cyberpunk-ff69b4?style=for-the-badge&logo=css3&logoColor=white&labelColor=0d0d1a)
 ![Frameworks](https://img.shields.io/badge/Frameworks-NONE-blueviolet?style=for-the-badge&labelColor=0d0d1a)
 ![Status](https://img.shields.io/badge/Status-Ready_To_Play-00ff88?style=for-the-badge&logo=html5&logoColor=black&labelColor=0d0d1a)
-
-<br/>
-
-<!-- Animated feature ticker -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=1800&pause=500&color=00FF88&center=true&vCenter=true&width=600&height=30&lines=▶+Play+|+❤+Favorite+|+🔀+Shuffle+|+🔁+Loop+|+🔍+Search+|+🎨+Themes+|+📱+Mobile" alt="Feature Ticker" />
-
-<!-- Waving banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffff,50:ff00ff,100:00ff88&height=80&section=header&animation=fadeIn" width="100%"/>
 
 </div>
 
@@ -163,26 +281,18 @@ GeerVibes/
 
 </div>
 
-> Web Audio API + CSS Custom Properties required. All modern browsers qualify.
-
 ---
 
 ## 🤝 Contributing
 
-All contributions welcome — bug fixes, new themes, wild feature ideas.
-
 ```bash
-# Fork → Clone → Branch
 git checkout -b feat/your-idea
-
-# Make your changes, then
 git commit -m "feat: your amazing addition"
 git push origin feat/your-idea
-
-# Open a Pull Request 🎉
+# → Open a Pull Request 🎉
 ```
 
-> Please keep the **zero-dependency** philosophy intact. No frameworks, no build tools.
+> Keep the **zero-dependency** philosophy intact. No frameworks, no build tools.
 
 ---
 
@@ -204,24 +314,33 @@ git push origin feat/your-idea
 
 ```
 MIT License — © 2024 Geershati Saxena
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software to use, copy, modify, merge, publish, and
-distribute it — with absolutely zero strings attached.
+Use, copy, modify, distribute — zero strings attached.
 ```
 
 ---
 
 <div align="center">
 
-<!-- Animated closing line -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=16&duration=2800&pause=1200&color=FF00FF&center=true&vCenter=true&width=520&height=45&lines=Made+with+❤️+%26+🎧+by+Geershati+Saxena;Stay+Tuned.+Stay+Wired.+Stay+Vibing." alt="Footer" />
-
-<br/>
-
-<!-- Waving footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:ff00ff,100:00ffff&height=80&section=footer&animation=fadeIn" width="100%"/>
-
-<sub>⚡ GeerVibes — The Melody in Every Moment</sub>
+<!-- Animated footer SVG -->
+<svg viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg" width="600" height="60">
+  <rect width="600" height="60" fill="#060612" rx="6"/>
+  <text x="300" y="22" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="3" fill="#ff00ff">
+    <animate attributeName="opacity" values="1;0;1" dur="3s" repeatCount="indefinite"/>
+    MADE WITH ❤️ AND 🎧 BY GEERSHATI SAXENA
+  </text>
+  <text x="300" y="44" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="4" fill="rgba(0,255,255,0.5)">
+    ⚡  STAY TUNED · STAY WIRED · STAY VIBING
+  </text>
+  <!-- animated underline -->
+  <line x1="100" y1="52" x2="500" y2="52" stroke="url(#lg)" stroke-width="1" opacity="0.6"/>
+  <defs>
+    <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#060612"/>
+      <stop offset="30%"  stop-color="#00ffff"/>
+      <stop offset="70%"  stop-color="#ff00ff"/>
+      <stop offset="100%" stop-color="#060612"/>
+    </linearGradient>
+  </defs>
+</svg>
 
 </div>
