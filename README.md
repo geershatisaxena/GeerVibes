@@ -330,7 +330,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 <br/>
 
 <!-- RAINBOW ANIMATED FOOTER -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=16&duration=3500&pause=800&color=FF0000&center=true&vCenter=true&width=650&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Geersha+saxena" alt="Made by" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=16&duration=3500&pause=800&color=FF0000&center=true&vCenter=true&width=650&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+Geershati+saxena" alt="Made by" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3500&pause=800&color=00FF88&center=true&vCenter=true&width=650&lines=Powered+by+Vanilla+JS+%26+Cyberpunk+Vibes" alt="Powered by" />
 
