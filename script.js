@@ -2678,6 +2678,14 @@ const SONGS = [
         coverThumb: "assets/images/dunki.jpg",
         faved: false
     },
+    {id:325,
+        title:"Main Tera Rasta Dekhunga",
+        artist:"Shadab faridi , Altamash Faridi",
+        src:"assets/songs/Main Tera Rasta Dekhunga (Lyrical) Shah Rukh Khan Rajkumar H Taapsee Pritam,Shadab,AltamashDunki.mp3",
+        cover:"assets/images/dunki.jpg",
+        coverThumb: "assets/images/dunki.jpg",
+        faved: false
+    },
 
    
    
