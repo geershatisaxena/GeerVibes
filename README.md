@@ -9,7 +9,7 @@
 <!-- MAIN TITLE — LAYERED RAINBOW ANIMATION -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=72&duration=1800&pause=400&color=FF0055&center=true&vCenter=true&width=900&lines=GEERVIBES" alt="GeerVibes Red" />
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=72&duration=1800&pause=400&color=FF6600&center=true&vCenter=true&width=900&lines=GEERVIBES" alt="GeerVibes Orange" />
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=72&duration=1800&pause=400&color=00FF88&center=true&vCenter=true&width=900&lines=GEERVIBES" alt="GeerVibes Green" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=72&duration=1800&pause=400&color=00FF88&center=true&vCenter=true&width=900&lines=GEERVIBES" alt="GeerVibes Crimson" />
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=72&duration=1800&pause=400&color=00EEFF&center=true&vCenter=true&width=900&lines=GEERVIBES" alt="GeerVibes Cyan" />
 
 <br/>
