@@ -2670,7 +2670,14 @@ const SONGS = [
         coverThumb: "assets/images/love.jpg",
         faved: false
     },
-    
+     {id:324,
+        title:"Main Tera Rasta Dekhunga",
+        artist:"Vishal Mishra, Shreya Ghoshal",
+        src:"assets/songs/Main Tera Rasta Dekhunga Dunki 320 Kbps.mp3",
+        cover:"assets/images/dunki.jpg",
+        coverThumb: "assets/images/dunki.jpg",
+        faved: false
+    },
 
    
    
