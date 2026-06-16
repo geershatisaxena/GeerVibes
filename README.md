@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- CAPSULE RENDER HEADER -->
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,20,24,30&height=280&section=header&text=GEERVIBES&fontSize=90&fontColor=ffffff&fontAlignY=55&animation=fadeIn&desc=Cyberpunk%20Audio%20Sanctuary&descSize=22&descAlignY=75&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,20,24,30&height=280&section=header&text=GEERVIBES&fontSize=90&fontColor=0F172A&fontAlignY=55&animation=fadeIn&desc=Cyberpunk%20Audio%20Sanctuary&descSize=22&descAlignY=75&descAlign=50)
 
 <!-- ANIMATED TYPING TAGLINES -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=3000&pause=800&color=FF3CAC&center=true&vCenter=true&width=800&lines=🎧+The+Melody+in+Every+Moment;⚡+Zero+Backend.+Pure+Audio+Power.;🌐+No+Frameworks.+No+Compromises." alt="Taglines" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=800&lines=🎧+The+Melody+in+Every+Moment;⚡+Zero+Backend.+Pure+Audio+Power.;🌐+No+Frameworks.+No+Compromises." alt="Taglines" />
 
 <br/>
 
