@@ -1,8 +1,11 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:DC2626,100:FF4D6D&height=280&section=header&text=GEERVIBES&fontSize=90&fontColor=16A34A&fontAlignY=55&animation=fadeIn&desc=Cyberpunk%20Audio%20Sanctuary&descSize=22&descAlignY=75&descAlign=50)
+<!-- ANIMATED TYPING TAGLINES -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=800&color=00E676&center=true&vCenter=true&width=900&lines=🎧+The+Melody+in+Every+Moment;⚡+Zero+Backend.+Pure+Audio+Power.;🌐+No+Frameworks.+No+Compromises." alt="Taglines" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=3000&pause=800&color=16A34A&center=true&vCenter=true&width=800&lines=🎧+The+Melody+in+Every+Moment;⚡+Zero+Backend.+Pure+Audio+Power.;🌐+No+Frameworks.+No+Compromises." />
+<br/>
 
 <!-- PRIMARY BADGES -->
 [![License](https://img.shields.io/badge/MIT-License-FF3CAC?style=for-the-badge&logo=opensourceinitiative&logoColor=fff&labelColor=0d0221)](LICENSE)
