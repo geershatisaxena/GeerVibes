@@ -1,10 +1,28 @@
 <div align="center">
 
+<!-- CAPSULE RENDER HEADER -->
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,20,24,30&height=280&section=header&text=GEERVIBES&fontSize=90&fontColor=FFFFFF&fontAlignY=55&animation=fadeIn&desc=Cyberpunk%20Audio%20Sanctuary&descSize=22&descColor=F8FAFC&descAlignY=75&descAlign=50)
+
 <!-- ANIMATED TYPING TAGLINES -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=800&color=00E676&center=true&vCenter=true&width=900&lines=🎧+The+Melody+in+Every+Moment;⚡+Zero+Backend.+Pure+Audio+Power.;🌐+No+Frameworks.+No+Compromises." alt="Taglines" />
 </p>
 
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Genre-LoFi%20%7C%20EDM%20%7C%20Synthwave-00E676?style=for-the-badge&logo=spotify&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Streaming%20Vibes-FF4D6D?style=for-the-badge&logo=soundcloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mood-Cyberpunk%20Energy-6366F1?style=for-the-badge&logo=musicbrainz&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31zv6l3mqf3d2q3g4s6lqj6i5x3i&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00E676&bar_color_cover=false" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=GEERVIBES&label=Listeners&color=00E676&style=for-the-badge" />
+</p>
 <br/>
 
 <!-- PRIMARY BADGES -->
