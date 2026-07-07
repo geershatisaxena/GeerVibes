@@ -2699,7 +2699,7 @@ const SONGS = [
         artist:"Pritam, Jubin Nautiyal",
         src:"songs/shayad jubin.mp3",
         cover:"images/jubin.jpg",
-        coverThumb: "assets/images/akeli raat.jpg",
+        coverThumb: "images/jubin.jpg",
         faved: false
     },
 
