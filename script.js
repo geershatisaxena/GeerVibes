@@ -2698,7 +2698,7 @@ const SONGS = [
         title:"Shayad (From Love Aaj Kal)",
         artist:"Pritam, Jubin Nautiyal",
         src:"songs/shayad jubin.mp3",
-        cover:"assets/images/akeli raat.jpg",
+        cover:"images/jubin.jpg",
         coverThumb: "assets/images/akeli raat.jpg",
         faved: false
     },
