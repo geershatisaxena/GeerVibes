@@ -2697,7 +2697,7 @@ const SONGS = [
       {id:327,
         title:"Shayad (From Love Aaj Kal)",
         artist:"Pritam, Jubin Nautiyal",
-        src:"assets/songs/Raat Akeli Thi (PenduJatt.Com.Se).mp3",
+        src:"songs/shayad jubin.mp3",
         cover:"assets/images/akeli raat.jpg",
         coverThumb: "assets/images/akeli raat.jpg",
         faved: false
