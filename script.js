@@ -2694,6 +2694,14 @@ const SONGS = [
         coverThumb: "assets/images/akeli raat.jpg",
         faved: false
     },
+      {id:326,
+        title:"Raat Akeli Thi",
+        artist:"Pritam, Arijit Singh, Antara Mitra",
+        src:"assets/songs/Raat Akeli Thi (PenduJatt.Com.Se).mp3",
+        cover:"assets/images/akeli raat.jpg",
+        coverThumb: "assets/images/akeli raat.jpg",
+        faved: false
+    },
 
    
    
