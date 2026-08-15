@@ -1808,7 +1808,7 @@ const SONGS = [
     {id:218,
         title:"Mitti Ke Bete",
         artist:"Mithoon, Sonu Nigam",
-        src:"assets/songs/Mitti Ke Bete Border 2 128 Kbps.mp3",
+        src:"assets/songs/Mitti ke bete.mp3",
         cover:"assets/images/mitti.jpg",
         coverThumb: "assets/images/mitti.jpg",
         faved: false
